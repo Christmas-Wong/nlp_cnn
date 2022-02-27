@@ -1,0 +1,44 @@
+# 项目基本信息：用于项目整体组织管理和wandb饰演管理
+project_info:
+  # 项目名称
+  project_name: nlp_cnn
+  # 实验分组：实验分组管理，相似实验进行组内对比
+  group_name: base
+  # 本次运行的名称
+  run_name: random
+
+# 日志配置（详情参见loguru官方文档：https://github.com/Delgan/loguru）
+log:
+  # 日志文件
+  file: "/data/wangfei/project/nlp_cnn/output/runtime.log"
+  # 日志分割方式
+  rotation: "00:00:00"
+  # 日志文件压缩方式
+  compression: zip
+
+padding: 128
+
+# TrainingArguments
+train_arguments:
+    dir_output: "/data/wangfei/project/nlp_cnn/output/"
+    train_file: "/data/wangfei/project/nlp_cnn/data/train.json"
+    test_file: "/data/wangfei/project/nlp_cnn/data/test.json"
+    eval_file: "/data/wangfei/project/nlp_cnn/data/eval.json"
+    learning_rate: 0.0002
+    train_batch_size: 64
+    eval_batch_size: 64
+    num_train_epoch: 100
+    early_stopping: 5
+    eval_step: 0
+
+# template 模型配置
+text_cnn:
+  vocab_size: 0
+  num_labels: 0
+  embedding: None
+  embedding_dim: 256
+#  word2vec random
+  embedding_type: random
+  filters: [1, 2, 3, 4, 5]
+  num_filters: [128, 128, 128, 128, 128]
+  dropout: 0.5
