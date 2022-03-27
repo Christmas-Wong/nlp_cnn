@@ -1,0 +1,74 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\chris\AppData\Local\Temp\jieba.cache
+Loading model cost 0.323 seconds.
+Prefix dict has been built successfully.
+[32m2022-03-19 23:47:08.049[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mjson_writer[39m:[36m125[39m - [1mSave Json Successfully.
+[32m2022-03-19 23:47:08.049[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mjson_writer[39m:[36m125[39m - [1mSave Json Successfully.
+[32m2022-03-19 23:47:08.161[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mwrite_lines[39m:[36m34[39m - [1mWrite into [E:\project_output\nlp_cnn_dpcnn_base_dpcnn_random\cache\vocab.txt] [31844]lines Successfully.
+[32m2022-03-19 23:47:08.161[39m | [1mINFO    [22m | [36msource.io.reader[39m:[36mlist_from_txt[39m:[36m106[39m -
+[1m Read [31844] lines from file
+
+
+
+
+
+
+
+100%|██████████| 5336/5336 [00:15<00:00, 350.32it/s]
+[32m2022-03-19 23:47:23.506[39m | [1mINFO    [22m | [36msource.core.inference[39m:[36mevaluate[39m:[36m74[39m -
+[1m[[ 74  26  20  22  16  29   6  14   2   7   0  12  15  35  11]
+[1m [ 16 178  15  10  18  32  12   8  13   6   0   9  44  21  30]
+[1m [ 20   5 187  33  45  12   3   7  15  11   0   7  10  46   7]
+[1m [ 22  14  41 123  17  25   3  18   7  14   0   3  27  16  14]
+[1m [ 17  27  37  16 197   7  45   7  15  41   0  26  16  21  25]
+[1m [ 31  26   8  24  13 176  12  16  22   9   0   2 130  17  34]
+[1m [  6   6  11  10  49   6 156   3  15  25   0   3  38   5   6]
+[1m [ 21  12   5  21   2  29   1  71   4   4   0   3  12  22   3]
+[1m [  3  10   8  14  21  18  16   5 112  20   0   2  19  17  98]
+[1m [  5   8  11  15  53   6  35   5  23 181   0   5  10  15  27]
+[1m [  0   1   0   3   1   6   2   2   0   0   0   0   9   0   2]
+[1m [ 10  15   8   2  30   0   3   2   1   2   0  20   2  10   6]
+[1m [ 15  46  10  23  14 111  33  11  18   8   0   3 267  15  22]
+[1m [ 29  19  42  17  16  14   6  17  10  11   0   5  12 109  30]
+[1m [  7  25  11  11  29  25  10   3  84  17   0   7  28  37 191]]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 23:47:23.519[39m | [1mINFO    [22m | [36msource.core.inference[39m:[36mevaluate[39m:[36m89[39m -
+[1m+--------------------+---------------------+---------------------+---------------------+---------+
+[1m|       Class        |      precision      |        recall       |       f1-score      | support |
+[1m+--------------------+---------------------+---------------------+---------------------+---------+
+[1m|  news_agriculture  | 0.26811594202898553 |  0.2560553633217993 |  0.2619469026548673 |   289   |
+[1m|      news_car      |  0.4258373205741627 |  0.4320388349514563 | 0.42891566265060244 |   412   |
+[1m|    news_culture    | 0.45169082125603865 |  0.4583333333333333 |  0.4549878345498784 |   408   |
+[1m|      news_edu      | 0.35755813953488375 | 0.35755813953488375 | 0.35755813953488375 |   344   |
+[1m| news_entertainment |  0.3781190019193858 |  0.3963782696177062 |  0.3870333988212181 |   497   |
+[1m|    news_finance    |  0.3548387096774194 |  0.3384615384615385 |  0.3464566929133858 |   520   |
+[1m|     news_game      | 0.45481049562682213 | 0.46017699115044247 |  0.4574780058651026 |   339   |
+[1m|     news_house     | 0.37566137566137564 |  0.3380952380952381 |  0.3558897243107769 |   210   |
+[1m|   news_military    |  0.3284457478005865 |  0.3085399449035813 |  0.3181818181818182 |   363   |
+[1m|    news_sports     |  0.5084269662921348 | 0.45363408521303256 |  0.4794701986754967 |   399   |
+[1m|     news_stock     |         0.0         |         0.0         |         0.0         |    26   |
+[1m|     news_story     | 0.18691588785046728 | 0.18018018018018017 | 0.18348623853211013 |   111   |
+[1m|     news_tech      | 0.41784037558685444 | 0.44798657718120805 | 0.43238866396761133 |   596   |
+[1m|    news_travel     |  0.2823834196891192 | 0.32344213649851633 |  0.301521438450899  |   337   |
+[1m|     news_world     |  0.3774703557312253 |  0.3938144329896907 |  0.3854692230070636 |   485   |
+[1m|      accuracy      |          0          |          0          | 0.38268365817091454 |   5336  |
+[1m|     macro avg      |  0.3445409706152974 | 0.34297967102884047 |  0.3433855961410476 |   5336  |
+[1m|    weighted avg    |  0.3815285394782963 | 0.38268365817091454 | 0.38171484883582396 |   5336  |
+[1m+--------------------+---------------------+---------------------+---------------------+---------+
+[32m2022-03-19 23:47:28.166[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mbase_writer[39m:[36m91[39m - [1mBase Writer Work Successfully.
+[32m2022-03-19 23:47:28.166[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mreport_saver[39m:[36m51[39m - [1mSave report.csv Successfully.
+[32m2022-03-19 23:47:28.166[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mbase_writer[39m:[36m91[39m - [1mBase Writer Work Successfully.
+[32m2022-03-19 23:47:28.166[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mreport_saver[39m:[36m57[39m - [1mSave report.txt Successfully.
+[32m2022-03-19 23:47:28.177[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mconfusion_2_csv[39m:[36m107[39m - [1mSave Confusion Matrix Successfully.
+[32m2022-03-19 23:47:28.433[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mjson_writer[39m:[36m125[39m - [1mSave Json Successfully.

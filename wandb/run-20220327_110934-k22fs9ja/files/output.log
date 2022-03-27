@@ -1,0 +1,7 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\chris\AppData\Local\Temp\jieba.cache
+Loading model cost 0.348 seconds.
+Prefix dict has been built successfully.
+Traceback (most recent call last):
+  File "D:\app\conda\envs\pytorch\lib\site-packages\jieba\_compat.py", line 79, in strdecode
+    sentence = sentence.decode('utf-8')

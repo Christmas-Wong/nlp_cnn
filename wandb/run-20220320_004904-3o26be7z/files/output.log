@@ -1,0 +1,34 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\chris\AppData\Local\Temp\jieba.cache
+Loading model cost 0.307 seconds.
+Prefix dict has been built successfully.
+
+
+
+100%|██████████| 53360/53360 [00:08<00:00, 6594.48it/s]
+[32m2022-03-20 00:49:24.862[39m | [1mINFO    [22m | [36msource.embedding.word2vec[39m:[36mword2vec_train[39m:[36m28[39m - [1mWord2vec Training Start 
+[32m2022-03-20 00:49:53.497[39m | [1mINFO    [22m | [36msource.embedding.word2vec[39m:[36mword2vec_train[39m:[36m45[39m - [1mWord2vec Training End, Cost【28.635278701782227】Seconds 
+100%|██████████| 31844/31844 [00:00<00:00, 241901.36it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]
+  0%|          | 0/100 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "D:\app\pycharm\PyCharm 2021.3.2\plugins\python\helpers\pydev\pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\app\pycharm\PyCharm 2021.3.2\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "E:/project/nlp_cnn-main/python_runner.py", line 21, in <module>
+    run(config)
+  File "E:\project\nlp_cnn-main\source\pipeline\classification.py", line 116, in run
+    trainer.train()
+  File "E:\project\nlp_cnn-main\source\core\trainer.py", line 56, in train
+    logits = self.model(batch_x)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "E:\project\nlp_cnn-main\source\model\dpcnn.py", line 76, in forward
+    x = self.bn(x)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\batchnorm.py", line 168, in forward
+    return F.batch_norm(
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\functional.py", line 2282, in batch_norm
+    return torch.batch_norm(

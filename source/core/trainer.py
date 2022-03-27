@@ -46,9 +46,9 @@ class MyTrainer(object):
 
     def train(self):
         self.model.train()
-        for epoch in tqdm(range(self.config.num_train_epoch)):
+        for epoch in tqdm(range(self.config.num_train_epoch), ascii=True):
             loss_train = 0
-            for batch_x, batch_y in tqdm(self.dataset_train):
+            for batch_x, batch_y in tqdm(self.dataset_train, ascii=True):
                 torch.cuda.empty_cache()
                 batch_x, batch_y = batch_x.to(DEVICE), batch_y.to(DEVICE)
                 # 每个batch都以独立训练，因此每训练一个batch，都需要将梯度设置为零
@@ -87,7 +87,7 @@ class MyTrainer(object):
         predict_all = np.array([], dtype=int)
         label_all = np.array([], dtype=int)
         with torch.no_grad():
-            for batch_x, batch_y in tqdm(self.dataset_train):
+            for batch_x, batch_y in tqdm(self.dataset_train, ascii=True):
                 batch_x, batch_y = batch_x.to(DEVICE), batch_y.to(DEVICE)
                 logits = self.model(batch_x)
                 loss = self.criterion(logits, batch_y)
@@ -112,5 +112,5 @@ class MyTrainer(object):
         }
         torch.save(
             state,
-            os.path.join(self.config.dir_output, "pytorch_text_cnn.pt")
+            os.path.join(self.config.dir_output, "pytorch_model.pt")
         )

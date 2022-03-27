@@ -1,0 +1,182 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\chris\AppData\Local\Temp\jieba.cache
+Loading model cost 0.322 seconds.
+Prefix dict has been built successfully.
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 53360/53360 [00:03<00:00, 17146.44it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 31844/31844 [00:00<00:00, 560936.28it/s]
+  0%|                                                                                                                                                                                                                                                                                     | 0/100 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+100%|##########################################################################################################################################################################################################################################################################1| 665/667 [00:17<00:00, 45.11it/s]
+ 76%|########################################################################################################################################################################################################9                                                                 | 504/667 [00:01<00:00, 274.17it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.####2      | 650/667 [00:02<00:00, 258.09it/s]
+  _warn_prf(average, modifier, msg_start, len(result))
+  1%|##6                                                                                                                                                                                                                                                                          | 1/100 [00:20<34:03, 20.64s/it]
+
+
+
+
+
+
+100%|##########################################################################################################################################################################################################################################################################5| 666/667 [00:14<00:00, 45.64it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.##6        | 646/667 [00:02<00:00, 246.19it/s]
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation loss decreased (2.451605 --> 1.744663).  Saving model ...
+  2%|#####3                                                                                                                                                                                                                                                                       | 2/100 [00:38<30:58, 18.96s/it]
+
+
+
+
+
+
+ 99%|#########################################################################################################################################################################################################################################################################3 | 663/667 [00:14<00:00, 47.58it/s]
+ 38%|#####################################################################################################2                                                                                                                                                                    | 254/667 [00:01<00:01, 254.91it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.##2        | 645/667 [00:02<00:00, 250.91it/s]
+  _warn_prf(average, modifier, msg_start, len(result))
+  3%|########                                                                                                                                                                                                                                                                     | 3/100 [00:55<29:30, 18.25s/it]
+
+
+
+
+
+
+100%|##########################################################################################################################################################################################################################################################################5| 666/667 [00:14<00:00, 47.03it/s]
+
+ 87%|######################################################################################################################################################################################################################################9                                   | 579/667 [00:02<00:00, 250.32it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.##########2| 665/667 [00:02<00:00, 250.13it/s]
+  _warn_prf(average, modifier, msg_start, len(result))
+  4%|##########7                                                                                                                                                                                                                                                                  | 4/100 [01:13<28:35, 17.87s/it]
+
+
+
+
+
+
+100%|#########################################################################################################################################################################################################################################################################7 | 664/667 [00:14<00:00, 46.40it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.####2      | 650/667 [00:02<00:00, 229.31it/s]
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation loss decreased (1.558308 --> 1.542684).  Saving model ...
+  5%|#############4                                                                                                                                                                                                                                                               | 5/100 [01:30<28:02, 17.71s/it]
+
+
+
+
+
+
+ 99%|#########################################################################################################################################################################################################################################################################3 | 663/667 [00:14<00:00, 47.35it/s]
+ 38%|######################################################################################################                                                                                                                                                                    | 256/667 [00:01<00:01, 232.18it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.#4         | 643/667 [00:02<00:00, 268.79it/s]
+  _warn_prf(average, modifier, msg_start, len(result))
+  6%|################1                                                                                                                                                                                                                                                            | 6/100 [01:47<27:36, 17.62s/it]
+
+
+
+
+
+
+100%|##########################################################################################################################################################################################################################################################################5| 666/667 [00:14<00:00, 46.78it/s]
+
+ 81%|#######################################################################################################################################################################################################################7                                                  | 541/667 [00:02<00:00, 240.30it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.#4         | 643/667 [00:02<00:00, 231.96it/s]
+  _warn_prf(average, modifier, msg_start, len(result))
+  7%|##################8                                                                                                                                                                                                                                                          | 7/100 [02:05<27:11, 17.54s/it]
+
+
+
+
+
+
+ 99%|#########################################################################################################################################################################################################################################################################3 | 663/667 [00:13<00:00, 46.28it/s]
+ 37%|##################################################################################################5                                                                                                                                                                       | 247/667 [00:00<00:01, 275.48it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.#########8 | 664/667 [00:02<00:00, 279.50it/s]
+  _warn_prf(average, modifier, msg_start, len(result))
+  8%|#####################5                                                                                                                                                                                                                                                       | 8/100 [02:22<26:34, 17.33s/it]
+
+
+
+
+
+
+100%|###########################################################################################################################################################################################################################################################################| 667/667 [00:13<00:00, 46.63it/s]
+
+ 98%|###################################################################################################################################################################################################################################################################6      | 651/667 [00:02<00:00, 267.15it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.####6      | 651/667 [00:02<00:00, 267.15it/s]
+  _warn_prf(average, modifier, msg_start, len(result))
+  9%|########################2                                                                                                                                                                                                                                                    | 9/100 [02:39<26:05, 17.21s/it]
+
+
+
+
+
+
+100%|###########################################################################################################################################################################################################################################################################| 667/667 [00:14<00:00, 44.60it/s]
+ 36%|##############################################################################################9                                                                                                                                                                           | 238/667 [00:00<00:01, 277.69it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.###4       | 648/667 [00:02<00:00, 261.31it/s]
+  _warn_prf(average, modifier, msg_start, len(result))
+ 10%|##########################8                                                                                                                                                                                                                                                 | 10/100 [02:56<25:55, 17.28s/it]
+
+
+
+
+
+
+ 99%|#########################################################################################################################################################################################################################################################################3 | 663/667 [00:14<00:00, 44.64it/s]
+ 70%|##########################################################################################################################################################################################6                                                                               | 468/667 [00:01<00:00, 274.31it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.##6        | 646/667 [00:02<00:00, 269.57it/s]
+  _warn_prf(average, modifier, msg_start, len(result))
+ 11%|#############################4                                                                                                                                                                                                                                              | 11/100 [03:14<25:41, 17.32s/it]
+
+
+
+
+
+
+
+100%|##########################################################################################################################################################################################################################################################################5| 666/667 [00:14<00:00, 45.31it/s]
+ 81%|########################################################################################################################################################################################################################1                                                 | 542/667 [00:01<00:00, 275.24it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.########6  | 661/667 [00:02<00:00, 270.61it/s]
+  _warn_prf(average, modifier, msg_start, len(result))
+ 12%|################################1                                                                                                                                                                                                                                           | 12/100 [03:31<25:33, 17.43s/it]
+
+
+
+
+
+
+100%|##########################################################################################################################################################################################################################################################################5| 666/667 [00:14<00:00, 46.77it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.6          | 641/667 [00:02<00:00, 263.81it/s]
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation loss decreased (1.402645 --> 1.401295).  Saving model ...
+ 13%|##################################8                                                                                                                                                                                                                                         | 13/100 [03:49<25:12, 17.39s/it]
+
+
+
+
+
+
+100%|##########################################################################################################################################################################################################################################################################1| 665/667 [00:14<00:00, 46.59it/s]
+ 54%|##############################################################################################################################################7                                                                                                                           | 358/667 [00:01<00:01, 222.39it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.###8       | 649/667 [00:02<00:00, 234.41it/s]
+  _warn_prf(average, modifier, msg_start, len(result))
+ 14%|#####################################5                                                                                                                                                                                                                                      | 14/100 [04:06<25:09, 17.55s/it]
+
+
+
+
+
+
+ 99%|#########################################################################################################################################################################################################################################################################3 | 663/667 [00:13<00:00, 50.03it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.#########8 | 664/667 [00:02<00:00, 279.14it/s]
+  _warn_prf(average, modifier, msg_start, len(result))
+Validation loss decreased (1.400253 --> 1.399441).  Saving model ...
+ 15%|########################################1                                                                                                                                                                                                                                   | 15/100 [04:23<24:16, 17.14s/it]
+
+

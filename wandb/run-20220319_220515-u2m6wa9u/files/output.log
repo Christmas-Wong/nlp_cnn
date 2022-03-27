@@ -1,0 +1,468 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\chris\AppData\Local\Temp\jieba.cache
+Loading model cost 0.334 seconds.
+Prefix dict has been built successfully.
+
+
+
+100%|██████████| 53360/53360 [00:08<00:00, 6389.62it/s]
+[32m2022-03-19 22:05:36.194[39m | [1mINFO    [22m | [36msource.embedding.word2vec[39m:[36mword2vec_train[39m:[36m28[39m - [1mWord2vec Training Start 
+[32m2022-03-19 22:06:05.125[39m | [1mINFO    [22m | [36msource.embedding.word2vec[39m:[36mword2vec_train[39m:[36m45[39m - [1mWord2vec Training End, Cost【28.931378841400146】Seconds 
+100%|██████████| 31844/31844 [00:00<00:00, 223185.60it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+[32m2022-03-19 22:06:32.515[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 2.448211
+[32m2022-03-19 22:06:32.515[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+ 54%|█████▍    | 363/667 [00:01<00:01, 269.66it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 22:06:35.045[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【17.012357711791992】, precision :【0.38201684135356445】, recall : 【0.33216809472981823】, fscore : 【0.32520403264938774】 
+  1%|          | 1/100 [00:21<34:40, 21.02s/it]
+
+
+
+
+
+
+
+[32m2022-03-19 22:06:51.136[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.741089
+[32m2022-03-19 22:06:51.136[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 22:06:53.762[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【12.6055269241333】, precision :【0.479612057710079】, recall : 【0.43146264098956205】, fscore : 【0.4364631428226154】 
+Validation loss decreased (2.448211 --> 1.741089).  Saving model ...
+  2%|▏         | 2/100 [00:39<32:09, 19.69s/it]
+
+
+
+
+
+
+[32m2022-03-19 22:07:09.177[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.594480
+[32m2022-03-19 22:07:09.177[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+
+ 98%|█████████▊| 656/667 [00:02<00:00, 254.91it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 22:07:11.787[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【12.2384672164917】, precision :【0.5133720256602884】, recall : 【0.43945851200361025】, fscore : 【0.440036517920924】 
+  3%|▎         | 3/100 [00:57<30:33, 18.90s/it]
+
+
+
+
+
+
+[32m2022-03-19 22:07:27.023[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.557349
+[32m2022-03-19 22:07:27.024[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 22:07:29.701[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【11.95091724395752】, precision :【0.5038722513761057】, recall : 【0.46268991739908916】, fscore : 【0.47215643007066854】 
+Validation loss decreased (1.594480 --> 1.557349).  Saving model ...
+  4%|▍         | 4/100 [01:15<29:36, 18.50s/it]
+
+
+
+
+
+
+[32m2022-03-19 22:07:45.173[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.540629
+[32m2022-03-19 22:07:45.173[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 22:07:47.778[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【11.89450454711914】, precision :【0.5182107087272806】, recall : 【0.4578190168392816】, fscore : 【0.4641400962629921】 
+Validation loss decreased (1.557349 --> 1.540629).  Saving model ...
+  5%|▌         | 5/100 [01:33<29:03, 18.35s/it]
+
+
+
+
+
+
+[32m2022-03-19 22:08:02.847[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.458855
+[32m2022-03-19 22:08:02.847[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+ 39%|███▉      | 262/667 [00:01<00:01, 243.27it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 22:08:05.501[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【11.423391342163086】, precision :【0.508366970549376】, recall : 【0.4806981769273349】, fscore : 【0.48792884787497376】 
+  6%|▌         | 6/100 [01:51<28:25, 18.14s/it]
+
+
+
+
+
+
+[32m2022-03-19 22:08:20.664[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.442803
+[32m2022-03-19 22:08:20.664[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+ 56%|█████▋    | 376/667 [00:01<00:01, 210.27it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 22:08:23.482[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【11.356216430664062】, precision :【0.5223856079592575】, recall : 【0.4727049758196957】, fscore : 【0.48521197330328586】 
+  7%|▋         | 7/100 [02:09<28:02, 18.09s/it]
+
+
+
+
+
+
+[32m2022-03-19 22:08:38.124[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.434314
+[32m2022-03-19 22:08:38.125[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+
+ 80%|███████▉  | 533/667 [00:02<00:00, 267.90it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 22:08:40.694[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【11.256529808044434】, precision :【0.5092233037458908】, recall : 【0.48619786929785924】, fscore : 【0.49291336399913027】 
+  8%|▊         | 8/100 [02:26<27:17, 17.80s/it]
+
+
+
+
+
+
+[32m2022-03-19 22:08:55.153[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.427044
+[32m2022-03-19 22:08:55.153[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+ 54%|█████▍    | 360/667 [00:01<00:01, 273.57it/s]
+  9%|▉         | 9/100 [02:43<26:37, 17.55s/it]earn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 22:08:57.643[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【11.281108856201172】, precision :【0.5160851636185007】, recall : 【0.488216982834548】, fscore : 【0.4931411631136834】 
+  9%|▉         | 9/100 [02:43<26:37, 17.55s/it]earn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+ 16%|█▋        | 110/667 [00:02<00:12, 45.95it/s]
+ 30%|██▉       | 200/667 [00:04<00:10, 46.41it/s]
+ 45%|████▍     | 298/667 [00:06<00:07, 47.69it/s]
+ 58%|█████▊    | 390/667 [00:08<00:06, 43.37it/s]
+ 70%|██████▉   | 466/667 [00:10<00:04, 48.32it/s]
+ 85%|████████▍ | 565/667 [00:12<00:02, 49.06it/s]
+ 99%|█████████▉| 662/667 [00:14<00:00, 47.69it/s]
+[32m2022-03-19 22:09:12.450[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.421752
+[32m2022-03-19 22:09:12.450[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.421752
+  _warn_prf(average, modifier, msg_start, len(result))[36mer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.421752
+  _warn_prf(average, modifier, msg_start, len(result))[36mer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.421752
+  _warn_prf(average, modifier, msg_start, len(result))[36mer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.421752
+  _warn_prf(average, modifier, msg_start, len(result))[36mer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.421752
+  _warn_prf(average, modifier, msg_start, len(result))[36mer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.421752
+  _warn_prf(average, modifier, msg_start, len(result))[36mer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.421752
+  _warn_prf(average, modifier, msg_start, len(result))[36mer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.421752
+  _warn_prf(average, modifier, msg_start, len(result))[36mer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.421752
+  _warn_prf(average, modifier, msg_start, len(result))[36mer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.421752
+[32m2022-03-19 22:09:31.887[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:09:31.887[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:09:31.887[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:09:31.887[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:09:31.887[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:09:31.887[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:09:31.887[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:09:31.887[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:09:47.114[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:09:47.114[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:09:49.724[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:09:49.724[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:09:49.724[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:09:49.724[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:09:49.724[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:09:49.724[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:09:49.724[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:09:49.724[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:05.436[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:10:08.484[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:08.484[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+Validation loss decreased (1.401204 --> 1.399933).  Saving model ...
+[32m2022-03-19 22:10:08.484[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:08.484[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:08.484[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:08.484[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:08.484[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:08.484[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:24.377[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:10:24.377[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:10:24.377[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:10:27.280[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:27.280[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:27.280[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:27.280[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:27.280[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:27.280[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:27.280[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:27.280[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:43.618[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:10:46.547[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:46.547[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+Validation loss decreased (1.398907 --> 1.398182).  Saving model ...
+[32m2022-03-19 22:10:46.547[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:46.547[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:46.547[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:46.547[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:46.547[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:10:46.547[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:02.401[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:11:05.093[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:05.093[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+Validation loss decreased (1.398182 --> 1.395982).  Saving model ...
+[32m2022-03-19 22:11:05.093[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:05.093[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:05.093[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:05.093[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:05.093[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:05.093[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:20.832[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:11:20.832[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:11:20.832[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:11:23.743[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:23.743[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:23.743[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:23.743[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:23.743[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:23.743[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:23.743[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:39.047[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:11:39.047[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:11:39.047[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:11:41.590[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:41.590[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:41.590[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:41.590[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:41.590[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:41.590[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:41.590[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:56.947[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:11:56.947[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:11:56.947[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:11:59.670[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:59.670[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:59.670[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:59.670[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:59.670[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:59.670[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:11:59.670[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:14.915[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:12:14.915[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:12:14.915[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:12:17.676[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:17.676[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:17.676[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:17.676[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:17.676[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:17.676[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:17.676[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:32.870[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:12:35.412[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:35.412[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+Validation loss decreased (1.395339 --> 1.395075).  Saving model ...
+[32m2022-03-19 22:12:35.412[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:35.412[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:35.412[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:35.412[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:35.412[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:35.412[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:49.839[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:12:49.839[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:12:52.398[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:52.398[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:52.398[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:52.398[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:52.398[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:52.398[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:12:52.398[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:06.826[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:13:09.341[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:09.341[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+Validation loss decreased (1.395058 --> 1.395042).  Saving model ...
+[32m2022-03-19 22:13:09.341[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:09.341[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:09.341[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:09.341[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:09.341[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:09.341[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:23.915[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:13:23.915[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:13:26.610[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:26.610[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:26.610[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:26.610[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:26.610[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:26.610[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:26.610[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:26.610[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:42.297[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:13:42.297[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:13:44.918[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:44.918[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:44.918[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:44.918[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:44.918[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:44.918[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:44.918[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:13:44.918[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:00.471[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:14:00.471[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:14:03.162[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:03.162[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:03.162[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:03.162[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:03.162[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:03.162[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:03.162[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:03.162[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:18.295[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:14:18.295[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:14:21.225[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:21.225[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:21.225[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:21.225[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:21.225[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:21.225[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:21.225[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:35.674[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:14:35.674[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:14:35.674[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:14:38.232[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:38.232[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:38.232[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:38.232[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:38.232[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:38.232[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:38.232[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:52.919[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:14:55.511[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:55.511[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+Validation loss decreased (1.394983 --> 1.394982).  Saving model ...
+[32m2022-03-19 22:14:55.511[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:55.511[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:55.511[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:55.511[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:14:55.511[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:09.914[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:15:09.914[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:15:09.914[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:15:12.398[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:12.398[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:12.398[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:12.398[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:12.398[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:12.398[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:12.398[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:26.903[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:15:26.903[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:15:29.490[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:29.490[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:29.490[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:29.490[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:29.490[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:29.490[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:29.490[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:29.490[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:44.726[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:15:44.726[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:15:47.284[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:47.284[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:47.284[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:47.284[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:47.284[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:47.284[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:15:47.284[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:02.734[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:16:02.734[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:16:02.734[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:16:05.558[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:05.558[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:05.558[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:05.558[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:05.558[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:05.558[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:05.558[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:20.594[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:16:20.594[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:16:20.594[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:16:23.328[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:23.328[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:23.328[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:23.328[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:23.328[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:23.328[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:23.328[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:23.328[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:39.133[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:16:39.133[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:16:41.960[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:41.960[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:41.960[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:41.960[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:41.960[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:41.960[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:41.960[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:41.960[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:16:57.926[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:17:00.659[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:00.659[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+Validation loss decreased (1.394977 --> 1.394977).  Saving model ...
+[32m2022-03-19 22:17:00.659[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:00.659[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:00.659[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:00.659[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:00.659[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:00.659[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:16.005[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:17:16.005[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:17:16.005[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:17:18.904[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:18.904[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:18.904[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:18.904[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:18.904[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:18.904[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:18.904[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:34.268[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:17:34.268[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:17:36.786[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:36.786[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:36.786[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:36.786[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:36.786[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:36.786[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:36.786[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:36.786[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:51.511[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:17:51.511[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:17:54.035[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:54.035[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:54.035[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:54.035[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:54.035[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:54.035[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:17:54.035[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:18:08.902[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:18:08.902[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:18:08.902[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:18:11.725[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:18:11.725[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:18:11.725[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:18:11.725[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:18:11.725[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:18:11.725[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:18:11.725[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:18:26.553[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+[32m2022-03-19 22:18:29.157[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:18:29.157[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+EarlyStopping counter: 4 out of 5
+[32m2022-03-19 22:18:29.157[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:18:29.157[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:18:29.157[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:18:29.157[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:18:29.157[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 1.421752
+[32m2022-03-19 22:18:42.873[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval uation 1.421752
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\serialization.py", line 211, in __init__ec
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\serialization.py", line 211, in __init__ec
+EarlyStopping counter: 5 out of 5

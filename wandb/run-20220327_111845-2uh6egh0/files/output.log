@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "D:\app\pycharm\PyCharm 2021.3.2\plugins\python\helpers\pydev\pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\app\pycharm\PyCharm 2021.3.2\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "E:/project/nlp_cnn-main/python_runner.py", line 21, in <module>
+    run(config)
+  File "E:\project\nlp_cnn-main\source\pipeline\classification.py", line 74, in run
+    raw_dataset = load_dataset(file_extension="json", data_files=data_files)
+  File "E:\project\nlp_cnn-main\source\core\data.py", line 82, in load_dataset
+    result[key] = MyDataset(
+  File "E:\project\nlp_cnn-main\source\core\data.py", line 28, in __init__
+    words = jieba.lcut(sentence.astype(str))

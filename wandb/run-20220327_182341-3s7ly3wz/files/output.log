@@ -1,0 +1,365 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\chris\AppData\Local\Temp\jieba.cache
+Loading model cost 0.326 seconds.
+Prefix dict has been built successfully.
+  0%|          | 0/100 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+[32m2022-03-27 18:24:27.582[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 0.598344
+[32m2022-03-27 18:24:27.583[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+100%|##########| 98/98 [00:00<00:00, 370.70it/s]
+[32m2022-03-27 18:24:27.851[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【1.4802308082580566】, precision :【0.8728936426675334】, recall : 【0.7646626858605685】, fscore : 【0.7925182201988125】 
+  1%|1         | 1/100 [00:26<43:53, 26.60s/it]
+  5%|5         | 5/98 [00:01<00:22,  4.18it/s]
+
+
+
+
+
+
+
+
+
+
+[32m2022-03-27 18:24:51.107[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 0.353588
+[32m2022-03-27 18:24:51.109[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+100%|##########| 98/98 [00:00<00:00, 379.87it/s]
+[32m2022-03-27 18:24:51.369[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【1.191558599472046】, precision :【0.8891682402790206】, recall : 【0.866273512499647】, fscore : 【0.8763320220075217】 
+  2%|2         | 2/100 [00:50<40:30, 24.80s/it]
+  1%|1         | 1/98 [00:00<00:22,  4.34it/s]
+
+
+
+
+
+
+
+
+
+
+
+[32m2022-03-27 18:25:15.108[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 0.300654
+[32m2022-03-27 18:25:15.108[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+100%|##########| 98/98 [00:00<00:00, 347.78it/s]
+[32m2022-03-27 18:25:15.395[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【1.0128086805343628】, precision :【0.9157918257432456】, recall : 【0.9149843164891045】, fscore : 【0.9153863299795297】 
+  3%|3         | 3/100 [01:14<39:30, 24.44s/it]
+  1%|1         | 1/98 [00:00<00:24,  4.00it/s]
+
+
+
+
+
+
+
+
+
+
+
+[32m2022-03-27 18:25:39.332[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 0.260205
+[32m2022-03-27 18:25:39.332[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+100%|##########| 98/98 [00:00<00:00, 376.73it/s]
+[32m2022-03-27 18:25:39.593[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【0.8665938973426819】, precision :【0.9468011636509386】, recall : 【0.9125492719378403】, fscore : 【0.9271824877229999】 
+  4%|4         | 4/100 [01:38<38:56, 24.34s/it]
+  0%|          | 0/98 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+[32m2022-03-27 18:26:03.464[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 0.229774
+[32m2022-03-27 18:26:03.464[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+100%|##########| 98/98 [00:00<00:00, 357.91it/s]
+[32m2022-03-27 18:26:03.743[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【0.7395132184028625】, precision :【0.9616232391164078】, recall : 【0.9482999867226358】, fscore : 【0.9545731266990743】 
+Validation loss decreased (0.260205 --> 0.229774).  Saving model ...
+  5%|5         | 5/100 [02:02<38:26, 24.28s/it]
+
+
+
+
+
+
+
+
+
+
+[32m2022-03-27 18:26:27.415[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 0.188187
+[32m2022-03-27 18:26:27.415[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+100%|##########| 98/98 [00:00<00:00, 349.06it/s]
+[32m2022-03-27 18:26:27.696[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【0.719887375831604】, precision :【0.9652813594492156】, recall : 【0.9474625515248842】, fscore : 【0.9556957408686493】 
+  6%|6         | 6/100 [02:26<37:51, 24.17s/it]
+  1%|1         | 1/98 [00:00<00:24,  3.95it/s]
+
+
+
+
+
+
+
+
+
+
+
+[32m2022-03-27 18:26:51.635[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 0.184600
+[32m2022-03-27 18:26:51.635[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+100%|##########| 98/98 [00:00<00:00, 376.10it/s]
+[32m2022-03-27 18:26:51.896[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【0.7103119492530823】, precision :【0.9664846634152955】, recall : 【0.9481881204238904】, fscore : 【0.9566270833659982】 
+  7%|7         | 7/100 [02:50<37:27, 24.17s/it]
+  1%|1         | 1/98 [00:00<00:23,  4.14it/s]
+
+
+
+
+
+
+
+
+
+
+
+[32m2022-03-27 18:27:15.711[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 0.181482
+[32m2022-03-27 18:27:15.711[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+100%|##########| 98/98 [00:00<00:00, 368.95it/s]
+[32m2022-03-27 18:27:15.980[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【0.6929503679275513】, precision :【0.967643614546738】, recall : 【0.958861679304194】, fscore : 【0.9630838117830833】 
+  8%|8         | 8/100 [03:14<37:01, 24.14s/it]
+  0%|          | 0/98 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+[32m2022-03-27 18:27:39.698[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 0.178119
+[32m2022-03-27 18:27:39.701[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+100%|##########| 98/98 [00:00<00:00, 347.76it/s]
+[32m2022-03-27 18:27:39.986[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【0.6819848418235779】, precision :【0.9696742592444162】, recall : 【0.9583633876383535】, fscore : 【0.9637431333488247】 
+  9%|9         | 9/100 [03:38<36:33, 24.10s/it]
+  1%|1         | 1/98 [00:00<00:23,  4.10it/s]
+
+
+
+
+
+
+
+
+
+
+
+[32m2022-03-27 18:28:03.731[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 0.174785
+[32m2022-03-27 18:28:03.731[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+100%|##########| 98/98 [00:00<00:00, 378.54it/s]
+[32m2022-03-27 18:28:03.994[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【0.6667752861976624】, precision :【0.969986346044282】, recall : 【0.9599187617566254】, fscore : 【0.9647332789597927】 
+ 10%|#         | 10/100 [04:02<36:06, 24.07s/it]
+  1%|1         | 1/98 [00:00<00:24,  4.00it/s]
+
+
+
+
+
+
+
+
+
+
+
+[32m2022-03-27 18:28:27.848[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 0.171308
+[32m2022-03-27 18:28:27.849[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+100%|##########| 98/98 [00:00<00:00, 378.24it/s]
+[32m2022-03-27 18:28:28.111[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【0.662684977054596】, precision :【0.9711538756967577】, recall : 【0.9606443306556314】, fscore : 【0.9656613619310871】 
+ 11%|#1        | 11/100 [04:26<35:43, 24.08s/it]
+  3%|3         | 3/98 [00:00<00:22,  4.23it/s]
+  9%|9         | 9/98 [00:02<00:21,  4.15it/s]
+ 18%|#8        | 18/98 [00:04<00:19,  4.20it/s]
+ 27%|##6       | 26/98 [00:06<00:17,  4.23it/s]
+ 36%|###5      | 35/98 [00:08<00:15,  4.18it/s]
+ 44%|####3     | 43/98 [00:10<00:13,  4.10it/s]
+ 53%|#####3    | 52/98 [00:12<00:11,  4.09it/s]
+ 61%|######1   | 60/98 [00:14<00:09,  4.13it/s]
+ 69%|######9   | 68/98 [00:16<00:07,  4.09it/s]
+ 79%|#######8  | 77/98 [00:18<00:05,  4.06it/s]
+ 87%|########6 | 85/98 [00:20<00:03,  4.07it/s]
+ 96%|#########5| 94/98 [00:22<00:00,  4.23it/s]
+[32m2022-03-27 18:28:52.007[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+[32m2022-03-27 18:28:52.007[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+Validation loss decreased (0.171308 --> 0.169656).  Saving model ...
+[32m2022-03-27 18:28:52.007[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+[32m2022-03-27 18:28:52.007[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+[32m2022-03-27 18:28:52.007[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+[32m2022-03-27 18:28:52.007[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+[32m2022-03-27 18:28:52.007[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+[32m2022-03-27 18:28:52.007[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+[32m2022-03-27 18:28:52.007[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+[32m2022-03-27 18:28:52.007[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+[32m2022-03-27 18:28:52.007[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+[32m2022-03-27 18:28:52.007[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 13%|#3        | 13/100 [05:14<34:51, 24.04s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 13%|#3        | 13/100 [05:14<34:51, 24.04s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+EarlyStopping counter: 1 out of 5
+ 13%|#3        | 13/100 [05:14<34:51, 24.04s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 13%|#3        | 13/100 [05:14<34:51, 24.04s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 13%|#3        | 13/100 [05:14<34:51, 24.04s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 13%|#3        | 13/100 [05:14<34:51, 24.04s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 13%|#3        | 13/100 [05:14<34:51, 24.04s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 13%|#3        | 13/100 [05:14<34:51, 24.04s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 13%|#3        | 13/100 [05:14<34:51, 24.04s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 13%|#3        | 13/100 [05:14<34:51, 24.04s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 13%|#3        | 13/100 [05:14<34:51, 24.04s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 13%|#3        | 13/100 [05:14<34:51, 24.04s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 14%|#4        | 14/100 [05:39<34:44, 24.24s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 14%|#4        | 14/100 [05:39<34:44, 24.24s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+Validation loss decreased (0.169656 --> 0.169619).  Saving model ...
+ 14%|#4        | 14/100 [05:39<34:44, 24.24s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 14%|#4        | 14/100 [05:39<34:44, 24.24s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 14%|#4        | 14/100 [05:39<34:44, 24.24s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 14%|#4        | 14/100 [05:39<34:44, 24.24s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 14%|#4        | 14/100 [05:39<34:44, 24.24s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 14%|#4        | 14/100 [05:39<34:44, 24.24s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 14%|#4        | 14/100 [05:39<34:44, 24.24s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 14%|#4        | 14/100 [05:39<34:44, 24.24s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 14%|#4        | 14/100 [05:39<34:44, 24.24s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 14%|#4        | 14/100 [05:39<34:44, 24.24s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 14%|#4        | 14/100 [05:39<34:44, 24.24s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 15%|#5        | 15/100 [06:04<34:32, 24.38s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 15%|#5        | 15/100 [06:04<34:32, 24.38s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+Validation loss decreased (0.169619 --> 0.168820).  Saving model ...
+ 15%|#5        | 15/100 [06:04<34:32, 24.38s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 15%|#5        | 15/100 [06:04<34:32, 24.38s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 15%|#5        | 15/100 [06:04<34:32, 24.38s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 15%|#5        | 15/100 [06:04<34:32, 24.38s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 15%|#5        | 15/100 [06:04<34:32, 24.38s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 15%|#5        | 15/100 [06:04<34:32, 24.38s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 15%|#5        | 15/100 [06:04<34:32, 24.38s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 15%|#5        | 15/100 [06:04<34:32, 24.38s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 15%|#5        | 15/100 [06:04<34:32, 24.38s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 15%|#5        | 15/100 [06:04<34:32, 24.38s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 16%|#6        | 16/100 [06:28<34:14, 24.46s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 16%|#6        | 16/100 [06:28<34:14, 24.46s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+Validation loss decreased (0.168820 --> 0.167817).  Saving model ...
+ 16%|#6        | 16/100 [06:28<34:14, 24.46s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 16%|#6        | 16/100 [06:28<34:14, 24.46s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 16%|#6        | 16/100 [06:28<34:14, 24.46s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 16%|#6        | 16/100 [06:28<34:14, 24.46s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 16%|#6        | 16/100 [06:28<34:14, 24.46s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 16%|#6        | 16/100 [06:28<34:14, 24.46s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 16%|#6        | 16/100 [06:28<34:14, 24.46s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 16%|#6        | 16/100 [06:28<34:14, 24.46s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 16%|#6        | 16/100 [06:28<34:14, 24.46s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 16%|#6        | 16/100 [06:28<34:14, 24.46s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 17%|#7        | 17/100 [06:53<33:53, 24.50s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 17%|#7        | 17/100 [06:53<33:53, 24.50s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+EarlyStopping counter: 1 out of 5
+ 17%|#7        | 17/100 [06:53<33:53, 24.50s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 17%|#7        | 17/100 [06:53<33:53, 24.50s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 17%|#7        | 17/100 [06:53<33:53, 24.50s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 17%|#7        | 17/100 [06:53<33:53, 24.50s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 17%|#7        | 17/100 [06:53<33:53, 24.50s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 17%|#7        | 17/100 [06:53<33:53, 24.50s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 17%|#7        | 17/100 [06:53<33:53, 24.50s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 17%|#7        | 17/100 [06:53<33:53, 24.50s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 17%|#7        | 17/100 [06:53<33:53, 24.50s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 17%|#7        | 17/100 [06:53<33:53, 24.50s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 18%|#8        | 18/100 [07:18<33:33, 24.56s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 18%|#8        | 18/100 [07:18<33:33, 24.56s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 18%|#8        | 18/100 [07:18<33:33, 24.56s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+Validation loss decreased (0.167817 --> 0.167615).  Saving model ...
+ 18%|#8        | 18/100 [07:18<33:33, 24.56s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 18%|#8        | 18/100 [07:18<33:33, 24.56s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 18%|#8        | 18/100 [07:18<33:33, 24.56s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 18%|#8        | 18/100 [07:18<33:33, 24.56s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 18%|#8        | 18/100 [07:18<33:33, 24.56s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 18%|#8        | 18/100 [07:18<33:33, 24.56s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 18%|#8        | 18/100 [07:18<33:33, 24.56s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 18%|#8        | 18/100 [07:18<33:33, 24.56s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 18%|#8        | 18/100 [07:18<33:33, 24.56s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 18%|#8        | 18/100 [07:18<33:33, 24.56s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 18%|#8        | 18/100 [07:18<33:33, 24.56s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 19%|#9        | 19/100 [07:42<33:08, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 19%|#9        | 19/100 [07:42<33:08, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 19%|#9        | 19/100 [07:42<33:08, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 19%|#9        | 19/100 [07:42<33:08, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 19%|#9        | 19/100 [07:42<33:08, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 19%|#9        | 19/100 [07:42<33:08, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 19%|#9        | 19/100 [07:42<33:08, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 19%|#9        | 19/100 [07:42<33:08, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 19%|#9        | 19/100 [07:42<33:08, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 19%|#9        | 19/100 [07:42<33:08, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 19%|#9        | 19/100 [07:42<33:08, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 19%|#9        | 19/100 [07:42<33:08, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 19%|#9        | 19/100 [07:42<33:08, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 20%|##        | 20/100 [08:07<32:43, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 20%|##        | 20/100 [08:07<32:43, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 20%|##        | 20/100 [08:07<32:43, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 20%|##        | 20/100 [08:07<32:43, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 20%|##        | 20/100 [08:07<32:43, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 20%|##        | 20/100 [08:07<32:43, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 20%|##        | 20/100 [08:07<32:43, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 20%|##        | 20/100 [08:07<32:43, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 20%|##        | 20/100 [08:07<32:43, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 20%|##        | 20/100 [08:07<32:43, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 20%|##        | 20/100 [08:07<32:43, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 20%|##        | 20/100 [08:07<32:43, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 20%|##        | 20/100 [08:07<32:43, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 21%|##1       | 21/100 [08:31<32:19, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 21%|##1       | 21/100 [08:31<32:19, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 21%|##1       | 21/100 [08:31<32:19, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 21%|##1       | 21/100 [08:31<32:19, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 21%|##1       | 21/100 [08:31<32:19, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 21%|##1       | 21/100 [08:31<32:19, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 21%|##1       | 21/100 [08:31<32:19, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 21%|##1       | 21/100 [08:31<32:19, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 21%|##1       | 21/100 [08:31<32:19, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 21%|##1       | 21/100 [08:31<32:19, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 21%|##1       | 21/100 [08:31<32:19, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 21%|##1       | 21/100 [08:31<32:19, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 21%|##1       | 21/100 [08:31<32:19, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 22%|##2       | 22/100 [08:56<31:54, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 22%|##2       | 22/100 [08:56<31:54, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 22%|##2       | 22/100 [08:56<31:54, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 22%|##2       | 22/100 [08:56<31:54, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 22%|##2       | 22/100 [08:56<31:54, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 22%|##2       | 22/100 [08:56<31:54, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 22%|##2       | 22/100 [08:56<31:54, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 22%|##2       | 22/100 [08:56<31:54, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 22%|##2       | 22/100 [08:56<31:54, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 22%|##2       | 22/100 [08:56<31:54, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 22%|##2       | 22/100 [08:56<31:54, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+ 22%|##2       | 22/100 [08:56<31:54, 24.55s/it][36m.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 0.169656
+[32m2022-03-27 18:33:22.328[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mwrite_lines[39m:[36m34[39m - [1mWrite into [E:\project_output\nlp_cnn_text_cnn_base_textcnn\cache\vocab.txt] [17463]lines Successfully.
+[32m2022-03-27 18:33:22.328[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mwrite_lines[39m:[36m34[39m - [1mWrite into [E:\project_output\nlp_cnn_text_cnn_base_textcnn\cache\vocab.txt] [17463]lines Successfully.
+EarlyStopping counter: 5 out of 5
+[1m| weighted avg | 0.8726638363759078 | 0.8744365743721829 | 0.8722677127106108 |   1553  |ject_output\nlp_cnn_text_cnn_base_textcnn\cache\vocab.txt] [17463]lines Successfully.
+[32m2022-03-27 18:33:30.071[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mreport_saver[39m:[36m57[39m - [1mSave report.txt Successfully.nlp_cnn_text_cnn_base_textcnn\cache\vocab.txt] [17463]lines Successfully.
+[32m2022-03-27 18:33:30.071[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mreport_saver[39m:[36m57[39m - [1mSave report.txt Successfully.nlp_cnn_text_cnn_base_textcnn\cache\vocab.txt] [17463]lines Successfully.
+[32m2022-03-27 18:33:30.071[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mreport_saver[39m:[36m57[39m - [1mSave report.txt Successfully.nlp_cnn_text_cnn_base_textcnn\cache\vocab.txt] [17463]lines Successfully.

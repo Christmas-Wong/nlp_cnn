@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "E:\project\nlp_cnn-main\source\io\reader.py", line 90, in json_reader
+    result = json.load(f)
+  File "D:\app\conda\envs\pytorch\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),

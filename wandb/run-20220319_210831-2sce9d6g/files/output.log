@@ -1,0 +1,15 @@
+Building prefix dict from the default dictionary ...
+Dumping model to file cache C:\Users\chris\AppData\Local\Temp\jieba.cache
+Loading model cost 0.621 seconds.
+Prefix dict has been built successfully.
+Traceback (most recent call last):
+  File "D:\app\pycharm\PyCharm 2021.3.2\plugins\python\helpers\pydev\pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\app\pycharm\PyCharm 2021.3.2\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "E:/project/nlp_cnn-main/python_runner.py", line 21, in <module>
+    run(config)
+  File "E:\project\nlp_cnn-main\source\pipeline\classification.py", line 94, in run
+    model = dict_model[model_name](model_args)
+  File "E:\project\nlp_cnn-main\source\model\dpcnn.py", line 105, in __init__
+    self.fc = nn.Linear(config.num_filters, config.num_classes)

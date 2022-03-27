@@ -1,0 +1,32 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\chris\AppData\Local\Temp\jieba.cache
+Loading model cost 0.313 seconds.
+Prefix dict has been built successfully.
+
+
+
+100%|██████████| 53360/53360 [00:08<00:00, 6665.36it/s]
+[32m2022-03-20 00:51:26.594[39m | [1mINFO    [22m | [36msource.embedding.word2vec[39m:[36mword2vec_train[39m:[36m28[39m - [1mWord2vec Training Start 
+[32m2022-03-20 00:51:55.166[39m | [1mINFO    [22m | [36msource.embedding.word2vec[39m:[36mword2vec_train[39m:[36m45[39m - [1mWord2vec Training End, Cost【28.57279634475708】Seconds 
+100%|██████████| 31844/31844 [00:00<00:00, 244756.12it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+[32m2022-03-20 00:52:24.527[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.816185
+[32m2022-03-20 00:52:24.528[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+
+
+ 92%|#########2| 616/667 [00:04<00:00, 136.84it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-20 00:52:29.459[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【12.798317909240723】, precision :【0.520138319477659】, recall : 【0.4562089041037769】, fscore : 【0.4642970241649413】 
+  1%|1         | 1/100 [00:25<42:28, 25.74s/it]
+

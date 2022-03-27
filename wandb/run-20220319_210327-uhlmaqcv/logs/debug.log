@@ -1,0 +1,24 @@
+2022-03-19 21:03:27,367 INFO    MainThread:51156 [wandb_setup.py:_flush():75] Loading settings from C:\Users\chris\.config\wandb\settings
+2022-03-19 21:03:27,367 INFO    MainThread:51156 [wandb_setup.py:_flush():75] Loading settings from E:\project\nlp_cnn-main\wandb\settings
+2022-03-19 21:03:27,367 INFO    MainThread:51156 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-03-19 21:03:27,368 INFO    MainThread:51156 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'python_runner.py', 'program': 'E:/project/nlp_cnn-main/python_runner.py'}
+2022-03-19 21:03:27,368 INFO    MainThread:51156 [wandb_init.py:_log_setup():405] Logging user logs to E:\project\nlp_cnn-main\wandb\run-20220319_210327-uhlmaqcv\logs\debug.log
+2022-03-19 21:03:27,369 INFO    MainThread:51156 [wandb_init.py:_log_setup():406] Logging internal logs to E:\project\nlp_cnn-main\wandb\run-20220319_210327-uhlmaqcv\logs\debug-internal.log
+2022-03-19 21:03:27,370 INFO    MainThread:51156 [wandb_init.py:init():439] calling init triggers
+2022-03-19 21:03:27,370 INFO    MainThread:51156 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {}
+2022-03-19 21:03:27,371 INFO    MainThread:51156 [wandb_init.py:init():492] starting backend
+2022-03-19 21:03:27,371 INFO    MainThread:51156 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn, using: spawn
+2022-03-19 21:03:27,373 INFO    MainThread:51156 [backend.py:ensure_launched():219] starting backend process...
+2022-03-19 21:03:28,013 INFO    MainThread:51156 [backend.py:ensure_launched():224] started backend process with pid: 39096
+2022-03-19 21:03:28,014 INFO    MainThread:51156 [wandb_init.py:init():501] backend started and connected
+2022-03-19 21:03:28,017 INFO    MainThread:51156 [wandb_init.py:init():565] updated telemetry
+2022-03-19 21:03:28,018 INFO    MainThread:51156 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-03-19 21:03:28,851 INFO    MainThread:51156 [wandb_run.py:_on_init():1759] communicating current version
+2022-03-19 21:03:29,352 INFO    MainThread:51156 [wandb_run.py:_on_init():1763] got version response 
+2022-03-19 21:03:29,352 INFO    MainThread:51156 [wandb_init.py:init():625] starting run threads in backend
+2022-03-19 21:03:31,245 INFO    MainThread:51156 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-19 21:03:31,247 INFO    MainThread:51156 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-19 21:03:31,248 INFO    MainThread:51156 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-19 21:03:31,249 INFO    MainThread:51156 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-19 21:03:31,249 INFO    MainThread:51156 [wandb_init.py:init():664] run started, returning control to user process

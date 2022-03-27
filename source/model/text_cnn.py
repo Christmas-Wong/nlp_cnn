@@ -62,5 +62,6 @@ class TextCNN(nn.Module):
 
         cat = self.dropout(torch.cat(pooled, dim=1))
         # cat = [batch size, n_filters * len(filter_sizes)]
+        output = self.fc(cat)
 
-        return self.fc(cat)
+        return output

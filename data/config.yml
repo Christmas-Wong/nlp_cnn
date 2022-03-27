@@ -2,15 +2,18 @@
 project_info:
   # 项目名称
   project_name: nlp_cnn
+  # 模型名称 text_cnn, dpcnn
+  model: "dpcnn"
   # 实验分组：实验分组管理，相似实验进行组内对比
   group_name: base
   # 本次运行的名称
-  run_name: random
+  run_name: dpcnn
+
 
 # 日志配置（详情参见loguru官方文档：https://github.com/Delgan/loguru）
 log:
-  # 日志文件
-  file: "/data/wangfei/project/nlp_cnn/output/runtime.log"
+  # 日志文件， 无需指定，训练文件会自动配置
+  file: "runtime.log"
   # 日志分割方式
   rotation: "00:00:00"
   # 日志文件压缩方式
@@ -20,10 +23,10 @@ padding: 128
 
 # TrainingArguments
 train_arguments:
-    dir_output: "/data/wangfei/project/nlp_cnn/output/"
-    train_file: "/data/wangfei/project/nlp_cnn/data/train.json"
-    test_file: "/data/wangfei/project/nlp_cnn/data/test.json"
-    eval_file: "/data/wangfei/project/nlp_cnn/data/eval.json"
+    dir_output: "E:\\project_output"
+    train_file: "E:\\project\\nlp_cnn-main\\data\\train.json"
+    test_file: "E:\\project\\nlp_cnn-main\\data\\test.json"
+    eval_file: "E:\\project\\nlp_cnn-main\\data\\test.json"
     learning_rate: 0.0002
     train_batch_size: 64
     eval_batch_size: 64
@@ -31,7 +34,7 @@ train_arguments:
     early_stopping: 5
     eval_step: 0
 
-# template 模型配置
+# Text_CNN 模型配置
 text_cnn:
   vocab_size: 0
   num_labels: 0
@@ -42,3 +45,14 @@ text_cnn:
   filters: [1, 2, 3, 4, 5]
   num_filters: [128, 128, 128, 128, 128]
   dropout: 0.5
+
+# DPCNN 模型配置
+dpcnn:
+  vocab_size: 0
+  num_labels: 0
+  embedding: None
+  embedding_dim: 256
+#  word2vec random
+  embedding_type: word2vec
+  num_filters: 640
+  dropout: 0.3

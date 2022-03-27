@@ -1,0 +1,79 @@
+2022-03-19 23:42:02,503 INFO    MainThread:53408 [internal.py:wandb_internal():92] W&B internal server running at pid: 53408, started at: 2022-03-19 23:42:02.495132
+2022-03-19 23:42:02,503 INFO    WriterThread:53408 [datastore.py:open_for_write():77] open: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\run-3p1mhhvf.wandb
+2022-03-19 23:42:02,503 DEBUG   SenderThread:53408 [sender.py:send():235] send: header
+2022-03-19 23:42:02,503 DEBUG   SenderThread:53408 [sender.py:send():235] send: run
+2022-03-19 23:42:03,059 INFO    SenderThread:53408 [dir_watcher.py:__init__():169] watching files in: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files
+2022-03-19 23:42:03,059 INFO    SenderThread:53408 [sender.py:_start_run_threads():812] run started: 3p1mhhvf with start time 1647704522
+2022-03-19 23:42:03,091 DEBUG   SenderThread:53408 [sender.py:send():235] send: summary
+2022-03-19 23:42:03,092 INFO    SenderThread:53408 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-19 23:42:03,092 DEBUG   HandlerThread:53408 [handler.py:handle_request():141] handle_request: check_version
+2022-03-19 23:42:03,092 DEBUG   SenderThread:53408 [sender.py:send_request():249] send_request: check_version
+2022-03-19 23:42:04,065 INFO    Thread-12 :53408 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\wandb-summary.json
+2022-03-19 23:42:05,207 DEBUG   HandlerThread:53408 [handler.py:handle_request():141] handle_request: run_start
+2022-03-19 23:42:05,221 DEBUG   HandlerThread:53408 [meta.py:__init__():37] meta init
+2022-03-19 23:42:05,221 DEBUG   HandlerThread:53408 [meta.py:__init__():51] meta init done
+2022-03-19 23:42:05,221 DEBUG   HandlerThread:53408 [meta.py:probe():211] probe
+2022-03-19 23:42:05,243 DEBUG   HandlerThread:53408 [meta.py:_save_pip():55] save pip
+2022-03-19 23:42:05,244 DEBUG   HandlerThread:53408 [meta.py:_save_pip():69] save pip done
+2022-03-19 23:42:05,244 DEBUG   HandlerThread:53408 [meta.py:_save_conda():76] save conda
+2022-03-19 23:42:06,069 INFO    Thread-12 :53408 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\requirements.txt
+2022-03-19 23:42:06,069 INFO    Thread-12 :53408 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\conda-environment.yaml
+2022-03-19 23:42:07,009 DEBUG   HandlerThread:53408 [meta.py:_save_conda():86] save conda done
+2022-03-19 23:42:07,009 DEBUG   HandlerThread:53408 [meta.py:probe():249] probe done
+2022-03-19 23:42:07,014 DEBUG   SenderThread:53408 [sender.py:send():235] send: files
+2022-03-19 23:42:07,014 INFO    SenderThread:53408 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-03-19 23:42:07,014 DEBUG   HandlerThread:53408 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 23:42:07,014 DEBUG   SenderThread:53408 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 23:42:07,079 INFO    Thread-12 :53408 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\conda-environment.yaml
+2022-03-19 23:42:07,079 INFO    Thread-12 :53408 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\output.log
+2022-03-19 23:42:07,079 INFO    Thread-12 :53408 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\wandb-metadata.json
+2022-03-19 23:42:07,393 DEBUG   SenderThread:53408 [sender.py:send():235] send: telemetry
+2022-03-19 23:42:08,159 INFO    Thread-16 :53408 [upload_job.py:push():137] Uploaded file C:\Users\chris\AppData\Local\Temp\tmpkhxotqzwwandb\1akt8qab-wandb-metadata.json
+2022-03-19 23:42:09,106 INFO    Thread-12 :53408 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\output.log
+2022-03-19 23:42:22,456 DEBUG   HandlerThread:53408 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 23:42:22,456 DEBUG   SenderThread:53408 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 23:42:26,256 INFO    Thread-12 :53408 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\output.log
+2022-03-19 23:42:28,263 INFO    Thread-12 :53408 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\output.log
+2022-03-19 23:42:33,314 INFO    Thread-12 :53408 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\config.yaml
+2022-03-19 23:42:36,797 DEBUG   SenderThread:53408 [sender.py:send():235] send: stats
+2022-03-19 23:42:37,863 DEBUG   HandlerThread:53408 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 23:42:37,863 DEBUG   SenderThread:53408 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 23:42:53,298 DEBUG   HandlerThread:53408 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 23:42:53,298 DEBUG   SenderThread:53408 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 23:43:08,651 DEBUG   HandlerThread:53408 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 23:43:08,652 DEBUG   SenderThread:53408 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 23:43:10,474 DEBUG   SenderThread:53408 [sender.py:send():235] send: stats
+2022-03-19 23:43:24,119 DEBUG   HandlerThread:53408 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 23:43:24,119 DEBUG   SenderThread:53408 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 23:43:39,468 DEBUG   HandlerThread:53408 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 23:43:39,468 DEBUG   SenderThread:53408 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 23:43:44,139 DEBUG   SenderThread:53408 [sender.py:send():235] send: stats
+2022-03-19 23:43:54,831 DEBUG   HandlerThread:53408 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 23:43:54,834 DEBUG   SenderThread:53408 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 23:44:10,226 DEBUG   HandlerThread:53408 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 23:44:10,226 DEBUG   SenderThread:53408 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 23:44:17,817 DEBUG   SenderThread:53408 [sender.py:send():235] send: stats
+2022-03-19 23:44:25,578 DEBUG   HandlerThread:53408 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 23:44:25,579 DEBUG   SenderThread:53408 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 23:44:28,079 WARNING MainThread:53408 [internal.py:wandb_internal():155] Internal process interrupt: 1
+2022-03-19 23:44:29,086 WARNING MainThread:53408 [internal.py:is_dead():387] Internal process exiting, parent pid 32856 disappeared
+2022-03-19 23:44:29,086 ERROR   MainThread:53408 [internal.py:wandb_internal():151] Internal process shutdown.
+2022-03-19 23:44:29,295 INFO    SenderThread:53408 [sender.py:finish():1078] shutting down sender
+2022-03-19 23:44:29,295 INFO    SenderThread:53408 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-19 23:44:29,388 INFO    SenderThread:53408 [dir_watcher.py:finish():313] scan: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files
+2022-03-19 23:44:29,388 INFO    SenderThread:53408 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\conda-environment.yaml conda-environment.yaml
+2022-03-19 23:44:29,388 INFO    SenderThread:53408 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\config.yaml config.yaml
+2022-03-19 23:44:29,388 INFO    SenderThread:53408 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\output.log output.log
+2022-03-19 23:44:29,393 INFO    SenderThread:53408 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\requirements.txt requirements.txt
+2022-03-19 23:44:29,393 INFO    SenderThread:53408 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\wandb-metadata.json wandb-metadata.json
+2022-03-19 23:44:29,393 INFO    SenderThread:53408 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\wandb-summary.json wandb-summary.json
+2022-03-19 23:44:29,409 INFO    SenderThread:53408 [file_pusher.py:finish():145] shutting down file pusher
+2022-03-19 23:44:29,409 INFO    SenderThread:53408 [file_pusher.py:join():150] waiting for file pusher
+2022-03-19 23:44:29,627 INFO    HandlerThread:53408 [handler.py:finish():778] shutting down handler
+2022-03-19 23:44:29,887 INFO    WriterThread:53408 [datastore.py:close():281] close: E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\run-3p1mhhvf.wandb
+2022-03-19 23:44:30,213 INFO    Thread-18 :53408 [upload_job.py:push():137] Uploaded file E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\config.yaml
+2022-03-19 23:44:30,213 INFO    Thread-21 :53408 [upload_job.py:push():137] Uploaded file E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\wandb-summary.json
+2022-03-19 23:44:30,229 INFO    Thread-20 :53408 [upload_job.py:push():137] Uploaded file E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\requirements.txt
+2022-03-19 23:44:30,270 INFO    Thread-19 :53408 [upload_job.py:push():137] Uploaded file E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\output.log
+2022-03-19 23:44:30,302 INFO    Thread-17 :53408 [upload_job.py:push():137] Uploaded file E:\project\nlp_cnn-main\wandb\run-20220319_234201-3p1mhhvf\files\conda-environment.yaml
+2022-03-19 23:44:31,690 INFO    MainThread:53408 [internal.py:handle_exit():82] Internal process exited

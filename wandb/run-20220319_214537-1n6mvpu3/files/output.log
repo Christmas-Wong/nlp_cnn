@@ -1,0 +1,23 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\chris\AppData\Local\Temp\jieba.cache
+Loading model cost 0.314 seconds.
+Prefix dict has been built successfully.
+  0%|          | 0/100 [00:00<?, ?it/s]
+  0%|          | 0/100 [00:33<?, ?it/s]
+Traceback (most recent call last):
+  File "D:\app\pycharm\PyCharm 2021.3.2\plugins\python\helpers\pydev\pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\app\pycharm\PyCharm 2021.3.2\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "E:/project/nlp_cnn-main/python_runner.py", line 21, in <module>
+    run(config)
+  File "E:\project\nlp_cnn-main\source\pipeline\classification.py", line 116, in run
+    trainer.train()
+  File "E:\project\nlp_cnn-main\source\core\trainer.py", line 57, in train
+    loss_ele = self.criterion(logits, batch_y)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\loss.py", line 1150, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\functional.py", line 2846, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)

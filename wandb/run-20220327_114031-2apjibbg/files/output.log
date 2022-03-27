@@ -1,0 +1,31 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\chris\AppData\Local\Temp\jieba.cache
+Loading model cost 0.325 seconds.
+Prefix dict has been built successfully.
+
+
+
+100%|██████████| 9318/9318 [00:07<00:00, 1170.33it/s]
+[32m2022-03-27 11:40:51.214[39m | [1mINFO    [22m | [36msource.embedding.word2vec[39m:[36mword2vec_train[39m:[36m28[39m - [1mWord2vec Training Start 
+[32m2022-03-27 11:41:08.387[39m | [1mINFO    [22m | [36msource.embedding.word2vec[39m:[36mword2vec_train[39m:[36m45[39m - [1mWord2vec Training End, Cost【17.172961711883545】Seconds 
+100%|██████████| 17463/17463 [00:00<00:00, 236292.91it/s]
+[32m2022-03-27 11:41:16.499[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mjson_writer[39m:[36m125[39m - [1mSave Json Successfully.
+[32m2022-03-27 11:41:16.499[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mjson_writer[39m:[36m125[39m - [1mSave Json Successfully.
+[32m2022-03-27 11:41:16.563[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mwrite_lines[39m:[36m34[39m - [1mWrite into [E:\project_output\nlp_cnn_dpcnn_base_textcnn_word2vec\cache\vocab.txt] [17463]lines Successfully.
+[32m2022-03-27 11:41:16.566[39m | [1mINFO    [22m | [36msource.io.reader[39m:[36mlist_from_txt[39m:[36m106[39m -
+[1m Read [17463] lines from file
+Traceback (most recent call last):
+  File "D:\app\pycharm\PyCharm 2021.3.2\plugins\python\helpers\pydev\pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\app\pycharm\PyCharm 2021.3.2\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "E:/project/nlp_cnn-main/python_runner.py", line 21, in <module>
+    run(config)
+  File "E:\project\nlp_cnn-main\source\pipeline\classification.py", line 152, in run
+    model_ckpt = torch.load(
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))

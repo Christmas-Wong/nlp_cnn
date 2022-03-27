@@ -1,0 +1,13 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\chris\AppData\Local\Temp\jieba.cache
+Loading model cost 0.323 seconds.
+Prefix dict has been built successfully.
+[32m2022-03-19 23:33:23.254[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mjson_writer[39m:[36m125[39m - [1mSave Json Successfully.
+[32m2022-03-19 23:33:23.254[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mjson_writer[39m:[36m125[39m - [1mSave Json Successfully.
+[32m2022-03-19 23:33:23.369[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mwrite_lines[39m:[36m34[39m - [1mWrite into [E:\project_output\nlp_cnn_dpcnn_base_dpcnn_random\cache\vocab.txt] [31844]lines Successfully.
+[32m2022-03-19 23:33:23.369[39m | [1mINFO    [22m | [36msource.io.reader[39m:[36mlist_from_txt[39m:[36m106[39m -
+[1m Read [31844] lines from file
+  0%|          | 0/5336 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "E:\project\nlp_cnn-main\source\core\inference.py", line 63, in run
+    predict = torch.max(outputs, 1).cpu().numpy()

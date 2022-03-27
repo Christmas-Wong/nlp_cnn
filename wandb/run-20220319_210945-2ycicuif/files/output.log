@@ -1,0 +1,31 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\chris\AppData\Local\Temp\jieba.cache
+Loading model cost 0.312 seconds.
+Prefix dict has been built successfully.
+  0%|          | 0/100 [00:00<?, ?it/s]
+  0%|          | 0/100 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "D:\app\pycharm\PyCharm 2021.3.2\plugins\python\helpers\pydev\pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\app\pycharm\PyCharm 2021.3.2\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "E:/project/nlp_cnn-main/python_runner.py", line 21, in <module>
+    run(config)
+  File "E:\project\nlp_cnn-main\source\pipeline\classification.py", line 116, in run
+    trainer.train()
+  File "E:\project\nlp_cnn-main\source\core\trainer.py", line 56, in train
+    logits = self.model(batch_x)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "E:\project\nlp_cnn-main\source\model\dpcnn.py", line 110, in forward
+    x = self.region_embedding(x)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\container.py", line 141, in forward
+    input = module(input)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\conv.py", line 446, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\conv.py", line 442, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,

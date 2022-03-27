@@ -1,0 +1,143 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.11
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.12
+    start_time: 1648376406
+    t:
+      1:
+      - 1
+      - 5
+      2:
+      - 1
+      - 5
+      3:
+      - 13
+      4: 3.8.12
+      5: 0.12.11
+      8:
+      - 3
+      - 5
+    visualize:
+      conf_mat:
+        panel_config:
+          fieldSettings:
+            Actual: Actual
+            Predicted: Predicted
+            nPredictions: nPredictions
+          panelDefId: wandb/confusion_matrix/v1
+          stringSettings:
+            title: ''
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: conf_mat_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      f1-score_chart:
+        panel_config:
+          fieldSettings:
+            label: class_name
+            value: f1-score
+          panelDefId: wandb/bar/v0
+          stringSettings:
+            title: Per Class f1-score
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: f1-score_chart_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      precision_chart:
+        panel_config:
+          fieldSettings:
+            label: class_name
+            value: precision
+          panelDefId: wandb/bar/v0
+          stringSettings:
+            title: Per Class precision
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: precision_chart_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      recall_chart:
+        panel_config:
+          fieldSettings:
+            label: class_name
+            value: recall
+          panelDefId: wandb/bar/v0
+          stringSettings:
+            title: Per Class recall
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: recall_chart_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2

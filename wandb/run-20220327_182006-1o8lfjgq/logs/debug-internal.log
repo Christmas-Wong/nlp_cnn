@@ -1,0 +1,224 @@
+2022-03-27 18:20:07,180 INFO    MainThread:59244 [internal.py:wandb_internal():92] W&B internal server running at pid: 59244, started at: 2022-03-27 18:20:07.180358
+2022-03-27 18:20:07,183 INFO    WriterThread:59244 [datastore.py:open_for_write():77] open: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\run-1o8lfjgq.wandb
+2022-03-27 18:20:07,186 DEBUG   SenderThread:59244 [sender.py:send():235] send: header
+2022-03-27 18:20:07,186 DEBUG   SenderThread:59244 [sender.py:send():235] send: run
+2022-03-27 18:20:07,528 INFO    SenderThread:59244 [dir_watcher.py:__init__():169] watching files in: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files
+2022-03-27 18:20:07,528 INFO    SenderThread:59244 [sender.py:_start_run_threads():812] run started: 1o8lfjgq with start time 1648376406
+2022-03-27 18:20:07,547 DEBUG   SenderThread:59244 [sender.py:send():235] send: summary
+2022-03-27 18:20:07,547 INFO    SenderThread:59244 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-27 18:20:07,551 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: check_version
+2022-03-27 18:20:07,552 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: check_version
+2022-03-27 18:20:08,066 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: run_start
+2022-03-27 18:20:08,077 DEBUG   HandlerThread:59244 [meta.py:__init__():37] meta init
+2022-03-27 18:20:08,077 DEBUG   HandlerThread:59244 [meta.py:__init__():51] meta init done
+2022-03-27 18:20:08,077 DEBUG   HandlerThread:59244 [meta.py:probe():211] probe
+2022-03-27 18:20:08,086 DEBUG   HandlerThread:59244 [meta.py:_save_pip():55] save pip
+2022-03-27 18:20:08,087 DEBUG   HandlerThread:59244 [meta.py:_save_pip():69] save pip done
+2022-03-27 18:20:08,087 DEBUG   HandlerThread:59244 [meta.py:_save_conda():76] save conda
+2022-03-27 18:20:08,542 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\conda-environment.yaml
+2022-03-27 18:20:08,542 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\wandb-summary.json
+2022-03-27 18:20:08,543 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\requirements.txt
+2022-03-27 18:20:09,895 DEBUG   HandlerThread:59244 [meta.py:_save_conda():86] save conda done
+2022-03-27 18:20:09,895 DEBUG   HandlerThread:59244 [meta.py:probe():249] probe done
+2022-03-27 18:20:09,901 DEBUG   SenderThread:59244 [sender.py:send():235] send: files
+2022-03-27 18:20:09,901 INFO    SenderThread:59244 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-03-27 18:20:09,907 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-27 18:20:09,908 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: stop_status
+2022-03-27 18:20:10,168 DEBUG   SenderThread:59244 [sender.py:send():235] send: telemetry
+2022-03-27 18:20:10,564 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\conda-environment.yaml
+2022-03-27 18:20:10,564 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\output.log
+2022-03-27 18:20:10,564 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\wandb-metadata.json
+2022-03-27 18:20:10,756 INFO    Thread-16 :59244 [upload_job.py:push():137] Uploaded file C:\Users\chris\AppData\Local\Temp\tmp1sm8s5gvwandb\3okl3rmn-wandb-metadata.json
+2022-03-27 18:20:12,576 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\output.log
+2022-03-27 18:20:25,799 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-27 18:20:25,799 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: stop_status
+2022-03-27 18:20:28,673 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\output.log
+2022-03-27 18:20:30,683 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\output.log
+2022-03-27 18:20:31,487 DEBUG   SenderThread:59244 [sender.py:send():235] send: config
+2022-03-27 18:20:31,789 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: log_artifact
+2022-03-27 18:20:31,790 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: log_artifact
+2022-03-27 18:20:32,618 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-27 18:20:32,698 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\output.log
+2022-03-27 18:20:32,698 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\media\table\conf_mat_table_0_465a81d3b50431967fdd.table.json
+2022-03-27 18:20:32,698 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\media\table
+2022-03-27 18:20:32,699 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\media
+2022-03-27 18:20:32,908 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: log_artifact
+2022-03-27 18:20:33,496 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-27 18:20:33,693 INFO    Thread-18 :59244 [upload_job.py:push():95] Uploaded file C:\Users\chris\.cache\wandb\artifacts\obj\md5\02\e51d7c6e394a61001ec420d150f8bd
+2022-03-27 18:20:33,710 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\media\table\precision_chart_table_1_40ad3a7dbf5292bdacf0.table.json
+2022-03-27 18:20:33,710 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\media\table
+2022-03-27 18:20:33,801 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: log_artifact
+2022-03-27 18:20:34,388 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-27 18:20:34,671 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: log_artifact
+2022-03-27 18:20:34,720 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\media\table\f1-score_chart_table_3_5978f2dc0ff4da099a2d.table.json
+2022-03-27 18:20:34,720 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\media\table\recall_chart_table_2_b06e2a03da67b4acfbfe.table.json
+2022-03-27 18:20:34,720 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\media\table
+2022-03-27 18:20:34,826 INFO    SenderThread:59244 [sender.py:send_request_log_artifact():976] logged artifact run-1o8lfjgq-conf_mat_table - {'id': 'QXJ0aWZhY3Q6MTA0NjI4MDE5', 'digest': 'cc42f2220324ca5b246291466db73bfb', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3MjExMjc5', 'latestArtifact': None}, 'version': 'latest'}
+2022-03-27 18:20:34,826 DEBUG   SenderThread:59244 [sender.py:send():235] send: files
+2022-03-27 18:20:34,826 INFO    SenderThread:59244 [sender.py:_save_file():947] saving file media\table\conf_mat_table_0_465a81d3b50431967fdd.table.json with policy now
+2022-03-27 18:20:34,827 DEBUG   SenderThread:59244 [sender.py:send():235] send: history
+2022-03-27 18:20:34,829 DEBUG   SenderThread:59244 [sender.py:send():235] send: summary
+2022-03-27 18:20:34,830 INFO    SenderThread:59244 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-27 18:20:34,830 DEBUG   SenderThread:59244 [sender.py:send():235] send: config
+2022-03-27 18:20:34,831 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: log_artifact
+2022-03-27 18:20:35,248 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-27 18:20:35,353 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-27 18:20:35,544 INFO    Thread-19 :59244 [upload_job.py:push():137] Uploaded file C:\Users\chris\AppData\Local\Temp\tmp1sm8s5gvwandb\s0ianb4c-media/table/conf_mat_table_0_465a81d3b50431967fdd.table.json
+2022-03-27 18:20:35,732 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\wandb-summary.json
+2022-03-27 18:20:35,922 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-27 18:20:36,574 INFO    Thread-21 :59244 [upload_job.py:push():95] Uploaded file C:\Users\chris\.cache\wandb\artifacts\obj\md5\92\21e9fdb0ed2d1cfa59f6d6adcaa1a6
+2022-03-27 18:20:36,746 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\output.log
+2022-03-27 18:20:37,775 INFO    SenderThread:59244 [sender.py:send_request_log_artifact():976] logged artifact run-1o8lfjgq-precision_chart_table - {'id': 'QXJ0aWZhY3Q6MTA0NjI4MDU5', 'digest': 'f891ba2407c0d0d109e0aad542b9f4a3', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3MjExMjgy', 'latestArtifact': None}, 'version': 'latest'}
+2022-03-27 18:20:38,081 DEBUG   SenderThread:59244 [sender.py:send():235] send: files
+2022-03-27 18:20:38,082 INFO    SenderThread:59244 [sender.py:_save_file():947] saving file media\table\precision_chart_table_1_40ad3a7dbf5292bdacf0.table.json with policy now
+2022-03-27 18:20:38,082 DEBUG   SenderThread:59244 [sender.py:send():235] send: history
+2022-03-27 18:20:38,082 DEBUG   SenderThread:59244 [sender.py:send():235] send: summary
+2022-03-27 18:20:38,084 INFO    SenderThread:59244 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-27 18:20:38,085 DEBUG   SenderThread:59244 [sender.py:send():235] send: config
+2022-03-27 18:20:38,085 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: log_artifact
+2022-03-27 18:20:38,758 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\config.yaml
+2022-03-27 18:20:38,759 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\wandb-summary.json
+2022-03-27 18:20:38,902 INFO    Thread-22 :59244 [upload_job.py:push():137] Uploaded file C:\Users\chris\AppData\Local\Temp\tmp1sm8s5gvwandb\1xl9tagp-media/table/precision_chart_table_1_40ad3a7dbf5292bdacf0.table.json
+2022-03-27 18:20:39,711 INFO    Thread-24 :59244 [upload_job.py:push():95] Uploaded file C:\Users\chris\.cache\wandb\artifacts\obj\md5\61\afe7386892b1477d344179f3aa5ed8
+2022-03-27 18:20:41,035 INFO    SenderThread:59244 [sender.py:send_request_log_artifact():976] logged artifact run-1o8lfjgq-recall_chart_table - {'id': 'QXJ0aWZhY3Q6MTA0NjI4MTE0', 'digest': '76065f92c0df2deda446099bdd35f1f6', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3MjExMjg0', 'latestArtifact': None}, 'version': 'latest'}
+2022-03-27 18:20:41,035 DEBUG   SenderThread:59244 [sender.py:send():235] send: files
+2022-03-27 18:20:41,036 INFO    SenderThread:59244 [sender.py:_save_file():947] saving file media\table\recall_chart_table_2_b06e2a03da67b4acfbfe.table.json with policy now
+2022-03-27 18:20:41,036 DEBUG   SenderThread:59244 [sender.py:send():235] send: history
+2022-03-27 18:20:41,036 DEBUG   SenderThread:59244 [sender.py:send():235] send: summary
+2022-03-27 18:20:41,039 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-27 18:20:41,040 INFO    SenderThread:59244 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-27 18:20:41,040 DEBUG   SenderThread:59244 [sender.py:send():235] send: config
+2022-03-27 18:20:41,041 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: log_artifact
+2022-03-27 18:20:41,790 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\wandb-summary.json
+2022-03-27 18:20:41,806 INFO    Thread-25 :59244 [upload_job.py:push():137] Uploaded file C:\Users\chris\AppData\Local\Temp\tmp1sm8s5gvwandb\1m6y9ecs-media/table/recall_chart_table_2_b06e2a03da67b4acfbfe.table.json
+2022-03-27 18:20:42,649 INFO    Thread-27 :59244 [upload_job.py:push():95] Uploaded file C:\Users\chris\.cache\wandb\artifacts\obj\md5\68\234239663554c7b6487513b238d628
+2022-03-27 18:20:43,786 INFO    SenderThread:59244 [sender.py:send_request_log_artifact():976] logged artifact run-1o8lfjgq-f1score_chart_table - {'id': 'QXJ0aWZhY3Q6MTA0NjI4MTI3', 'digest': '68584c41757ba394104c58222fd81b1c', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3MjExMjg4', 'latestArtifact': None}, 'version': 'latest'}
+2022-03-27 18:20:43,787 DEBUG   SenderThread:59244 [sender.py:send():235] send: files
+2022-03-27 18:20:43,788 INFO    SenderThread:59244 [sender.py:_save_file():947] saving file media\table\f1-score_chart_table_3_5978f2dc0ff4da099a2d.table.json with policy now
+2022-03-27 18:20:43,789 DEBUG   SenderThread:59244 [sender.py:send():235] send: history
+2022-03-27 18:20:43,790 DEBUG   SenderThread:59244 [sender.py:send():235] send: summary
+2022-03-27 18:20:43,792 INFO    SenderThread:59244 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-27 18:20:43,793 DEBUG   SenderThread:59244 [sender.py:send():235] send: telemetry
+2022-03-27 18:20:43,793 DEBUG   SenderThread:59244 [sender.py:send():235] send: exit
+2022-03-27 18:20:43,793 INFO    SenderThread:59244 [sender.py:send_exit():371] handling exit code: 0
+2022-03-27 18:20:43,793 INFO    SenderThread:59244 [sender.py:send_exit():373] handling runtime: 27
+2022-03-27 18:20:43,793 INFO    SenderThread:59244 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-27 18:20:43,794 INFO    SenderThread:59244 [sender.py:send_exit():379] send defer
+2022-03-27 18:20:43,794 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: poll_exit
+2022-03-27 18:20:43,794 DEBUG   SenderThread:59244 [sender.py:send():235] send: stats
+2022-03-27 18:20:43,795 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: poll_exit
+2022-03-27 18:20:43,798 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: defer
+2022-03-27 18:20:43,799 INFO    HandlerThread:59244 [handler.py:handle_request_defer():164] handle defer: 0
+2022-03-27 18:20:43,799 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: defer
+2022-03-27 18:20:43,799 INFO    SenderThread:59244 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-03-27 18:20:43,799 INFO    SenderThread:59244 [sender.py:transition_state():392] send defer: 1
+2022-03-27 18:20:43,800 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: defer
+2022-03-27 18:20:43,800 INFO    HandlerThread:59244 [handler.py:handle_request_defer():164] handle defer: 1
+2022-03-27 18:20:43,801 INFO    Thread-12 :59244 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\wandb-summary.json
+2022-03-27 18:20:43,878 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: defer
+2022-03-27 18:20:43,878 INFO    SenderThread:59244 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-03-27 18:20:43,878 INFO    SenderThread:59244 [sender.py:transition_state():392] send defer: 2
+2022-03-27 18:20:43,879 DEBUG   SenderThread:59244 [sender.py:send():235] send: stats
+2022-03-27 18:20:43,879 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: defer
+2022-03-27 18:20:43,879 INFO    HandlerThread:59244 [handler.py:handle_request_defer():164] handle defer: 2
+2022-03-27 18:20:43,879 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: defer
+2022-03-27 18:20:43,879 INFO    SenderThread:59244 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-03-27 18:20:43,879 INFO    SenderThread:59244 [sender.py:transition_state():392] send defer: 3
+2022-03-27 18:20:43,880 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: defer
+2022-03-27 18:20:43,880 INFO    HandlerThread:59244 [handler.py:handle_request_defer():164] handle defer: 3
+2022-03-27 18:20:43,880 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: defer
+2022-03-27 18:20:43,880 INFO    SenderThread:59244 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-03-27 18:20:43,880 INFO    SenderThread:59244 [sender.py:transition_state():392] send defer: 4
+2022-03-27 18:20:43,880 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: defer
+2022-03-27 18:20:43,880 INFO    HandlerThread:59244 [handler.py:handle_request_defer():164] handle defer: 4
+2022-03-27 18:20:43,880 DEBUG   SenderThread:59244 [sender.py:send():235] send: summary
+2022-03-27 18:20:43,881 INFO    SenderThread:59244 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-27 18:20:43,881 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: defer
+2022-03-27 18:20:43,881 INFO    SenderThread:59244 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-03-27 18:20:43,881 INFO    SenderThread:59244 [sender.py:transition_state():392] send defer: 5
+2022-03-27 18:20:43,881 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: defer
+2022-03-27 18:20:43,882 INFO    HandlerThread:59244 [handler.py:handle_request_defer():164] handle defer: 5
+2022-03-27 18:20:43,882 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: defer
+2022-03-27 18:20:43,882 INFO    SenderThread:59244 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-03-27 18:20:43,911 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-27 18:20:44,223 INFO    SenderThread:59244 [sender.py:transition_state():392] send defer: 6
+2022-03-27 18:20:44,224 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: poll_exit
+2022-03-27 18:20:44,224 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: defer
+2022-03-27 18:20:44,224 INFO    HandlerThread:59244 [handler.py:handle_request_defer():164] handle defer: 6
+2022-03-27 18:20:44,224 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: defer
+2022-03-27 18:20:44,224 INFO    SenderThread:59244 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-03-27 18:20:44,224 INFO    SenderThread:59244 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-27 18:20:44,328 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-27 18:20:44,549 INFO    Thread-28 :59244 [upload_job.py:push():137] Uploaded file C:\Users\chris\AppData\Local\Temp\tmp1sm8s5gvwandb\18r66ycd-media/table/f1-score_chart_table_3_5978f2dc0ff4da099a2d.table.json
+2022-03-27 18:20:44,815 INFO    SenderThread:59244 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\config.yaml
+2022-03-27 18:20:44,816 INFO    SenderThread:59244 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\wandb-summary.json
+2022-03-27 18:20:44,817 INFO    SenderThread:59244 [dir_watcher.py:finish():313] scan: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files
+2022-03-27 18:20:44,818 INFO    SenderThread:59244 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\conda-environment.yaml conda-environment.yaml
+2022-03-27 18:20:44,818 INFO    SenderThread:59244 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\config.yaml config.yaml
+2022-03-27 18:20:44,823 INFO    SenderThread:59244 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\output.log output.log
+2022-03-27 18:20:44,825 INFO    SenderThread:59244 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\requirements.txt requirements.txt
+2022-03-27 18:20:44,825 INFO    SenderThread:59244 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\wandb-metadata.json wandb-metadata.json
+2022-03-27 18:20:44,825 INFO    SenderThread:59244 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\wandb-summary.json wandb-summary.json
+2022-03-27 18:20:44,844 INFO    SenderThread:59244 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\media\table\conf_mat_table_0_465a81d3b50431967fdd.table.json media\table\conf_mat_table_0_465a81d3b50431967fdd.table.json
+2022-03-27 18:20:44,844 INFO    SenderThread:59244 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\media\table\f1-score_chart_table_3_5978f2dc0ff4da099a2d.table.json media\table\f1-score_chart_table_3_5978f2dc0ff4da099a2d.table.json
+2022-03-27 18:20:44,844 INFO    SenderThread:59244 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\media\table\precision_chart_table_1_40ad3a7dbf5292bdacf0.table.json media\table\precision_chart_table_1_40ad3a7dbf5292bdacf0.table.json
+2022-03-27 18:20:44,844 INFO    SenderThread:59244 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\media\table\recall_chart_table_2_b06e2a03da67b4acfbfe.table.json media\table\recall_chart_table_2_b06e2a03da67b4acfbfe.table.json
+2022-03-27 18:20:44,844 INFO    SenderThread:59244 [sender.py:transition_state():392] send defer: 7
+2022-03-27 18:20:44,845 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: poll_exit
+2022-03-27 18:20:44,845 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: defer
+2022-03-27 18:20:44,845 INFO    HandlerThread:59244 [handler.py:handle_request_defer():164] handle defer: 7
+2022-03-27 18:20:44,846 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: defer
+2022-03-27 18:20:44,846 INFO    SenderThread:59244 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-03-27 18:20:44,846 INFO    SenderThread:59244 [file_pusher.py:finish():145] shutting down file pusher
+2022-03-27 18:20:44,953 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-27 18:20:44,954 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: poll_exit
+2022-03-27 18:20:45,060 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-27 18:20:45,060 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: poll_exit
+2022-03-27 18:20:45,170 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-27 18:20:45,170 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: poll_exit
+2022-03-27 18:20:45,279 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-27 18:20:45,279 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: poll_exit
+2022-03-27 18:20:45,389 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-27 18:20:45,391 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: poll_exit
+2022-03-27 18:20:45,499 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-27 18:20:45,499 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: poll_exit
+2022-03-27 18:20:45,527 INFO    Thread-31 :59244 [upload_job.py:push():137] Uploaded file E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\output.log
+2022-03-27 18:20:45,547 INFO    Thread-30 :59244 [upload_job.py:push():137] Uploaded file E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\config.yaml
+2022-03-27 18:20:45,578 INFO    Thread-33 :59244 [upload_job.py:push():137] Uploaded file E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\wandb-summary.json
+2022-03-27 18:20:45,594 INFO    Thread-29 :59244 [upload_job.py:push():137] Uploaded file E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\conda-environment.yaml
+2022-03-27 18:20:45,605 INFO    Thread-32 :59244 [upload_job.py:push():137] Uploaded file E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\files\requirements.txt
+2022-03-27 18:20:45,609 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-27 18:20:45,609 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: poll_exit
+2022-03-27 18:20:45,720 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-27 18:20:45,721 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: poll_exit
+2022-03-27 18:20:45,811 INFO    Thread-11 :59244 [sender.py:transition_state():392] send defer: 8
+2022-03-27 18:20:45,813 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: defer
+2022-03-27 18:20:45,813 INFO    HandlerThread:59244 [handler.py:handle_request_defer():164] handle defer: 8
+2022-03-27 18:20:45,813 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: defer
+2022-03-27 18:20:45,814 INFO    SenderThread:59244 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-03-27 18:20:45,827 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-27 18:20:46,523 INFO    SenderThread:59244 [sender.py:transition_state():392] send defer: 9
+2022-03-27 18:20:46,523 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: poll_exit
+2022-03-27 18:20:46,525 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: defer
+2022-03-27 18:20:46,526 INFO    HandlerThread:59244 [handler.py:handle_request_defer():164] handle defer: 9
+2022-03-27 18:20:46,526 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: defer
+2022-03-27 18:20:46,527 INFO    SenderThread:59244 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-03-27 18:20:46,527 INFO    SenderThread:59244 [sender.py:transition_state():392] send defer: 10
+2022-03-27 18:20:46,528 DEBUG   SenderThread:59244 [sender.py:send():235] send: final
+2022-03-27 18:20:46,529 DEBUG   SenderThread:59244 [sender.py:send():235] send: footer
+2022-03-27 18:20:46,529 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: defer
+2022-03-27 18:20:46,529 INFO    HandlerThread:59244 [handler.py:handle_request_defer():164] handle defer: 10
+2022-03-27 18:20:46,530 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: defer
+2022-03-27 18:20:46,530 INFO    SenderThread:59244 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-03-27 18:20:46,634 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-27 18:20:46,635 DEBUG   SenderThread:59244 [sender.py:send_request():249] send_request: poll_exit
+2022-03-27 18:20:46,635 INFO    SenderThread:59244 [file_pusher.py:join():150] waiting for file pusher
+2022-03-27 18:20:47,067 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: sampled_history
+2022-03-27 18:20:47,068 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: get_summary
+2022-03-27 18:20:47,069 DEBUG   HandlerThread:59244 [handler.py:handle_request():141] handle_request: shutdown
+2022-03-27 18:20:47,069 INFO    HandlerThread:59244 [handler.py:finish():778] shutting down handler
+2022-03-27 18:20:47,532 INFO    WriterThread:59244 [datastore.py:close():281] close: E:\project\nlp_cnn-main\wandb\run-20220327_182006-1o8lfjgq\run-1o8lfjgq.wandb
+2022-03-27 18:20:47,966 INFO    SenderThread:59244 [sender.py:finish():1078] shutting down sender
+2022-03-27 18:20:47,967 INFO    SenderThread:59244 [file_pusher.py:finish():145] shutting down file pusher
+2022-03-27 18:20:47,967 INFO    SenderThread:59244 [file_pusher.py:join():150] waiting for file pusher
+2022-03-27 18:20:48,447 INFO    MainThread:59244 [internal.py:handle_exit():82] Internal process exited

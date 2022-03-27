@@ -1,0 +1,411 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\chris\AppData\Local\Temp\jieba.cache
+Loading model cost 0.319 seconds.
+Prefix dict has been built successfully.
+  0%|          | 0/100 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+[32m2022-03-19 21:52:09.006[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 2.716515
+[32m2022-03-19 21:52:09.006[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+
+ 93%|█████████▎| 621/667 [00:02<00:00, 216.44it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 21:52:12.209[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【20.80027198791504】, precision :【0.10778212345460389】, recall : 【0.10408087284734284】, fscore : 【0.0638248635830498】 
+  1%|          | 1/100 [00:54<1:29:14, 54.09s/it]
+
+
+
+
+
+
+
+[32m2022-03-19 21:52:28.454[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 2.437507
+[32m2022-03-19 21:52:28.454[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 21:52:31.367[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【18.336124420166016】, precision :【0.1551364708477135】, recall : 【0.1800560072953013】, fscore : 【0.14678381225218418】 
+  2%|▏         | 2/100 [01:13<54:49, 33.57s/it]
+  1%|          | 5/667 [00:00<00:15, 43.16it/s]
+
+
+
+
+
+
+
+[32m2022-03-19 21:52:47.539[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 2.261892
+[32m2022-03-19 21:52:47.539[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+
+ 82%|████████▏ | 544/667 [00:02<00:00, 223.92it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 21:52:50.537[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【17.004907608032227】, precision :【0.21527388720176704】, recall : 【0.22717264459224548】, fscore : 【0.19968188835132752】 
+  3%|▎         | 3/100 [01:32<43:37, 26.98s/it]
+
+
+
+
+
+
+
+[32m2022-03-19 21:53:06.640[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 2.142375
+[32m2022-03-19 21:53:06.640[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+ 68%|██████▊   | 451/667 [00:01<00:00, 262.75it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 21:53:09.339[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【16.027835845947266】, precision :【0.2545467753982955】, recall : 【0.2576350146967409】, fscore : 【0.2314714943612345】 
+  4%|▍         | 4/100 [01:51<37:59, 23.75s/it]
+
+
+
+
+
+
+
+[32m2022-03-19 21:53:25.799[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 2.035260
+[32m2022-03-19 21:53:25.799[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+
+ 88%|████████▊ | 589/667 [00:02<00:00, 247.17it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 21:53:28.634[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【15.253498077392578】, precision :【0.27996520189810065】, recall : 【0.2826689821573】, fscore : 【0.25645146964927085】 
+  5%|▌         | 5/100 [02:10<35:04, 22.15s/it]
+
+
+
+
+
+
+[32m2022-03-19 21:53:44.156[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.857772
+[32m2022-03-19 21:53:44.156[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+
+ 79%|███████▉  | 527/667 [00:02<00:00, 254.72it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 21:53:46.820[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【14.35155963897705】, precision :【0.3491264156632088】, recall : 【0.30894191231255874】, fscore : 【0.2780054159554738】 
+  6%|▌         | 6/100 [02:28<32:33, 20.79s/it]
+
+
+
+
+
+
+[32m2022-03-19 21:54:02.235[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.809337
+[32m2022-03-19 21:54:02.235[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+
+ 84%|████████▍ | 561/667 [00:02<00:00, 225.04it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 21:54:05.157[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【14.168691635131836】, precision :【0.34340048116011374】, recall : 【0.310367423706069】, fscore : 【0.28105376338058413】 
+  7%|▋         | 7/100 [02:47<30:59, 20.00s/it]
+
+
+
+
+
+
+
+[32m2022-03-19 21:54:20.765[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.780298
+[32m2022-03-19 21:54:20.765[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+ 59%|█████▉    | 392/667 [00:01<00:01, 226.33it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 21:54:23.755[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【13.867847442626953】, precision :【0.35500311441115445】, recall : 【0.32574586358466534】, fscore : 【0.2991283144854641】 
+  8%|▊         | 8/100 [03:05<29:59, 19.56s/it]
+
+
+
+
+
+
+[32m2022-03-19 21:54:38.756[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.755049
+[32m2022-03-19 21:54:38.756[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m84[39m - [1mEval 
+
+ 87%|████████▋ | 581/667 [00:02<00:00, 263.64it/s]
+D:\app\conda\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[32m2022-03-19 21:54:41.295[39m | [1mINFO    [22m | [36msource.core.trainer[39m:[36m__eval[39m:[36m101[39m - [1mEvaluation 
+[1m Loss : 【13.664645195007324】, precision :【0.3744970536773483】, recall : 【0.32869358357293105】, fscore : 【0.2994038962221046】 
+  9%|▉         | 9/100 [03:23<28:41, 18.92s/it]
+ 23%|██▎       | 151/667 [00:03<00:11, 45.71it/s]
+ 37%|███▋      | 246/667 [00:05<00:08, 48.95it/s]
+ 48%|████▊     | 321/667 [00:06<00:07, 47.85it/s]
+ 62%|██████▏   | 414/667 [00:08<00:05, 46.51it/s]
+ 77%|███████▋  | 512/667 [00:10<00:03, 48.36it/s]
+ 92%|█████████▏| 613/667 [00:12<00:01, 49.57it/s]
+ 39%|███▉      | 261/667 [00:00<00:01, 275.16it/s][36mrainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.732594
+ 39%|███▉      | 261/667 [00:00<00:01, 275.16it/s][36mrainer[39m:[36mtrain[39m:[36m68[39m - [1mTrain loss : 1.732594
+ 10%|█         | 10/100 [03:40<27:31, 18.35s/it]arn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+ 10%|█         | 10/100 [03:40<27:31, 18.35s/it]arn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+ 10%|█         | 10/100 [03:40<27:31, 18.35s/it]arn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+ 10%|█         | 10/100 [03:40<27:31, 18.35s/it]arn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+ 10%|█         | 10/100 [03:40<27:31, 18.35s/it]arn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+ 10%|█         | 10/100 [03:40<27:31, 18.35s/it]arn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+ 10%|█         | 10/100 [03:40<27:31, 18.35s/it]arn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+ 10%|█         | 10/100 [03:40<27:31, 18.35s/it]arn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+100%|██████████| 667/667 [00:14<00:00, 47.46it/s]rn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+100%|██████████| 667/667 [00:14<00:00, 47.46it/s]rn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+100%|██████████| 667/667 [00:02<00:00, 265.84it/s]n\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+100%|██████████| 667/667 [00:02<00:00, 265.84it/s]n\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+100%|██████████| 667/667 [00:02<00:00, 265.84it/s]n\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+100%|██████████| 667/667 [00:02<00:00, 265.84it/s]n\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+100%|██████████| 667/667 [00:02<00:00, 265.84it/s]n\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+100%|██████████| 667/667 [00:02<00:00, 265.84it/s]n\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+100%|██████████| 667/667 [00:02<00:00, 265.84it/s]n\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+100%|██████████| 667/667 [00:02<00:00, 265.84it/s]n\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.388360023498535】, precision :【0.3983097629286154】, recall : 【0.34012235706342203】, fscore : 【0.3156344418399787】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.388360023498535】, precision :【0.3983097629286154】, recall : 【0.34012235706342203】, fscore : 【0.3156344418399787】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.388360023498535】, precision :【0.3983097629286154】, recall : 【0.34012235706342203】, fscore : 【0.3156344418399787】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+Validation loss decreased (1.695073 --> 1.690423).  Saving model ...
+[1m Loss : 【13.388360023498535】, precision :【0.3983097629286154】, recall : 【0.34012235706342203】, fscore : 【0.3156344418399787】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.388360023498535】, precision :【0.3983097629286154】, recall : 【0.34012235706342203】, fscore : 【0.3156344418399787】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.388360023498535】, precision :【0.3983097629286154】, recall : 【0.34012235706342203】, fscore : 【0.3156344418399787】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.388360023498535】, precision :【0.3983097629286154】, recall : 【0.34012235706342203】, fscore : 【0.3156344418399787】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.388360023498535】, precision :【0.3983097629286154】, recall : 【0.34012235706342203】, fscore : 【0.3156344418399787】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.388360023498535】, precision :【0.3983097629286154】, recall : 【0.34012235706342203】, fscore : 【0.3156344418399787】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.372161865234375】, precision :【0.4052048492333735】, recall : 【0.3409010871936199】, fscore : 【0.31581975046300115】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.372161865234375】, precision :【0.4052048492333735】, recall : 【0.3409010871936199】, fscore : 【0.31581975046300115】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+Validation loss decreased (1.690423 --> 1.687569).  Saving model ...
+[1m Loss : 【13.372161865234375】, precision :【0.4052048492333735】, recall : 【0.3409010871936199】, fscore : 【0.31581975046300115】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.372161865234375】, precision :【0.4052048492333735】, recall : 【0.3409010871936199】, fscore : 【0.31581975046300115】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.372161865234375】, precision :【0.4052048492333735】, recall : 【0.3409010871936199】, fscore : 【0.31581975046300115】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.372161865234375】, precision :【0.4052048492333735】, recall : 【0.3409010871936199】, fscore : 【0.31581975046300115】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.372161865234375】, precision :【0.4052048492333735】, recall : 【0.3409010871936199】, fscore : 【0.31581975046300115】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.372161865234375】, precision :【0.4052048492333735】, recall : 【0.3409010871936199】, fscore : 【0.31581975046300115】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.372161865234375】, precision :【0.4052048492333735】, recall : 【0.3409010871936199】, fscore : 【0.31581975046300115】 [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.35470199584961】, precision :【0.3896010615634254】, recall : 【0.34236078683171906】, fscore : 【0.3198121658710405】  [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.35470199584961】, precision :【0.3896010615634254】, recall : 【0.34236078683171906】, fscore : 【0.3198121658710405】  [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+Validation loss decreased (1.687569 --> 1.684725).  Saving model ...
+[1m Loss : 【13.35470199584961】, precision :【0.3896010615634254】, recall : 【0.34236078683171906】, fscore : 【0.3198121658710405】  [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.35470199584961】, precision :【0.3896010615634254】, recall : 【0.34236078683171906】, fscore : 【0.3198121658710405】  [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.35470199584961】, precision :【0.3896010615634254】, recall : 【0.34236078683171906】, fscore : 【0.3198121658710405】  [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.35470199584961】, precision :【0.3896010615634254】, recall : 【0.34236078683171906】, fscore : 【0.3198121658710405】  [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.35470199584961】, precision :【0.3896010615634254】, recall : 【0.34236078683171906】, fscore : 【0.3198121658710405】  [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.35470199584961】, precision :【0.3896010615634254】, recall : 【0.34236078683171906】, fscore : 【0.3198121658710405】  [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.35470199584961】, precision :【0.3896010615634254】, recall : 【0.34236078683171906】, fscore : 【0.3198121658710405】  [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.35470199584961】, precision :【0.3896010615634254】, recall : 【0.34236078683171906】, fscore : 【0.3198121658710405】  [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.35470199584961】, precision :【0.3896010615634254】, recall : 【0.34236078683171906】, fscore : 【0.3198121658710405】  [22mscore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.321666717529297】, precision :【0.40104989133764346】, recall : 【0.34357596232635823】, fscore : 【0.3206240189053688】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.321666717529297】, precision :【0.40104989133764346】, recall : 【0.34357596232635823】, fscore : 【0.3206240189053688】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.321666717529297】, precision :【0.40104989133764346】, recall : 【0.34357596232635823】, fscore : 【0.3206240189053688】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.321666717529297】, precision :【0.40104989133764346】, recall : 【0.34357596232635823】, fscore : 【0.3206240189053688】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.321666717529297】, precision :【0.40104989133764346】, recall : 【0.34357596232635823】, fscore : 【0.3206240189053688】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.321666717529297】, precision :【0.40104989133764346】, recall : 【0.34357596232635823】, fscore : 【0.3206240189053688】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.321666717529297】, precision :【0.40104989133764346】, recall : 【0.34357596232635823】, fscore : 【0.3206240189053688】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.321666717529297】, precision :【0.40104989133764346】, recall : 【0.34357596232635823】, fscore : 【0.3206240189053688】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.321666717529297】, precision :【0.40104989133764346】, recall : 【0.34357596232635823】, fscore : 【0.3206240189053688】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.31667709350586】, precision :【0.3983722218172029】, recall : 【0.34357861446394455】, fscore : 【0.3204176392470728】 】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.31667709350586】, precision :【0.3983722218172029】, recall : 【0.34357861446394455】, fscore : 【0.3204176392470728】 】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.31667709350586】, precision :【0.3983722218172029】, recall : 【0.34357861446394455】, fscore : 【0.3204176392470728】 】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.31667709350586】, precision :【0.3983722218172029】, recall : 【0.34357861446394455】, fscore : 【0.3204176392470728】 】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.31667709350586】, precision :【0.3983722218172029】, recall : 【0.34357861446394455】, fscore : 【0.3204176392470728】 】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.31667709350586】, precision :【0.3983722218172029】, recall : 【0.34357861446394455】, fscore : 【0.3204176392470728】 】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.31667709350586】, precision :【0.3983722218172029】, recall : 【0.34357861446394455】, fscore : 【0.3204176392470728】 】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.31667709350586】, precision :【0.3983722218172029】, recall : 【0.34357861446394455】, fscore : 【0.3204176392470728】 】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.31667709350586】, precision :【0.3983722218172029】, recall : 【0.34357861446394455】, fscore : 【0.3204176392470728】 】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.31667709350586】, precision :【0.3983722218172029】, recall : 【0.34357861446394455】, fscore : 【0.3204176392470728】 】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.315007209777832】, precision :【0.3982638339513725】, recall : 【0.34357757268132955】, fscore : 【0.3203499083428812】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.315007209777832】, precision :【0.3982638339513725】, recall : 【0.34357757268132955】, fscore : 【0.3203499083428812】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.315007209777832】, precision :【0.3982638339513725】, recall : 【0.34357757268132955】, fscore : 【0.3203499083428812】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.315007209777832】, precision :【0.3982638339513725】, recall : 【0.34357757268132955】, fscore : 【0.3203499083428812】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.315007209777832】, precision :【0.3982638339513725】, recall : 【0.34357757268132955】, fscore : 【0.3203499083428812】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.315007209777832】, precision :【0.3982638339513725】, recall : 【0.34357757268132955】, fscore : 【0.3203499083428812】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.315007209777832】, precision :【0.3982638339513725】, recall : 【0.34357757268132955】, fscore : 【0.3203499083428812】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.315007209777832】, precision :【0.3982638339513725】, recall : 【0.34357757268132955】, fscore : 【0.3203499083428812】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.312560081481934】, precision :【0.4008949144247699】, recall : 【0.34378341559465775】, fscore : 【0.3205486673860563】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.312560081481934】, precision :【0.4008949144247699】, recall : 【0.34378341559465775】, fscore : 【0.3205486673860563】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+Validation loss decreased (1.677348 --> 1.677081).  Saving model ...
+[1m Loss : 【13.312560081481934】, precision :【0.4008949144247699】, recall : 【0.34378341559465775】, fscore : 【0.3205486673860563】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.312560081481934】, precision :【0.4008949144247699】, recall : 【0.34378341559465775】, fscore : 【0.3205486673860563】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.312560081481934】, precision :【0.4008949144247699】, recall : 【0.34378341559465775】, fscore : 【0.3205486673860563】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.312560081481934】, precision :【0.4008949144247699】, recall : 【0.34378341559465775】, fscore : 【0.3205486673860563】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.312560081481934】, precision :【0.4008949144247699】, recall : 【0.34378341559465775】, fscore : 【0.3205486673860563】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.312560081481934】, precision :【0.4008949144247699】, recall : 【0.34378341559465775】, fscore : 【0.3205486673860563】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.312560081481934】, precision :【0.4008949144247699】, recall : 【0.34378341559465775】, fscore : 【0.3205486673860563】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.311092376708984】, precision :【0.3982847457851913】, recall : 【0.3434356165894474】, fscore : 【0.32023159366683196】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.311092376708984】, precision :【0.3982847457851913】, recall : 【0.3434356165894474】, fscore : 【0.32023159366683196】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+Validation loss decreased (1.677081 --> 1.676832).  Saving model ...
+[1m Loss : 【13.311092376708984】, precision :【0.3982847457851913】, recall : 【0.3434356165894474】, fscore : 【0.32023159366683196】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.311092376708984】, precision :【0.3982847457851913】, recall : 【0.3434356165894474】, fscore : 【0.32023159366683196】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.311092376708984】, precision :【0.3982847457851913】, recall : 【0.3434356165894474】, fscore : 【0.32023159366683196】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.311092376708984】, precision :【0.3982847457851913】, recall : 【0.3434356165894474】, fscore : 【0.32023159366683196】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.311092376708984】, precision :【0.3982847457851913】, recall : 【0.3434356165894474】, fscore : 【0.32023159366683196】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.311092376708984】, precision :【0.3982847457851913】, recall : 【0.3434356165894474】, fscore : 【0.32023159366683196】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.311092376708984】, precision :【0.3982847457851913】, recall : 【0.3434356165894474】, fscore : 【0.32023159366683196】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.311092376708984】, precision :【0.3982847457851913】, recall : 【0.3434356165894474】, fscore : 【0.32023159366683196】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.311092376708984】, precision :【0.3982847457851913】, recall : 【0.3434356165894474】, fscore : 【0.32023159366683196】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308868408203125】, precision :【0.3967240227093654】, recall : 【0.3435963208479951】, fscore : 【0.3202538139152796】   [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308868408203125】, precision :【0.3967240227093654】, recall : 【0.3435963208479951】, fscore : 【0.3202538139152796】   [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308868408203125】, precision :【0.3967240227093654】, recall : 【0.3435963208479951】, fscore : 【0.3202538139152796】   [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308868408203125】, precision :【0.3967240227093654】, recall : 【0.3435963208479951】, fscore : 【0.3202538139152796】   [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308868408203125】, precision :【0.3967240227093654】, recall : 【0.3435963208479951】, fscore : 【0.3202538139152796】   [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308868408203125】, precision :【0.3967240227093654】, recall : 【0.3435963208479951】, fscore : 【0.3202538139152796】   [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308868408203125】, precision :【0.3967240227093654】, recall : 【0.3435963208479951】, fscore : 【0.3202538139152796】   [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308868408203125】, precision :【0.3967240227093654】, recall : 【0.3435963208479951】, fscore : 【0.3202538139152796】   [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308868408203125】, precision :【0.3967240227093654】, recall : 【0.3435963208479951】, fscore : 【0.3202538139152796】   [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308868408203125】, precision :【0.3967240227093654】, recall : 【0.3435963208479951】, fscore : 【0.3202538139152796】   [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308506965637207】, precision :【0.3971463724318255】, recall : 【0.3435239445368851】, fscore : 【0.320241210417576】    [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308506965637207】, precision :【0.3971463724318255】, recall : 【0.3435239445368851】, fscore : 【0.320241210417576】    [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308506965637207】, precision :【0.3971463724318255】, recall : 【0.3435239445368851】, fscore : 【0.320241210417576】    [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308506965637207】, precision :【0.3971463724318255】, recall : 【0.3435239445368851】, fscore : 【0.320241210417576】    [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308506965637207】, precision :【0.3971463724318255】, recall : 【0.3435239445368851】, fscore : 【0.320241210417576】    [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308506965637207】, precision :【0.3971463724318255】, recall : 【0.3435239445368851】, fscore : 【0.320241210417576】    [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308506965637207】, precision :【0.3971463724318255】, recall : 【0.3435239445368851】, fscore : 【0.320241210417576】    [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308506965637207】, precision :【0.3971463724318255】, recall : 【0.3435239445368851】, fscore : 【0.320241210417576】    [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308506965637207】, precision :【0.3971463724318255】, recall : 【0.3435239445368851】, fscore : 【0.320241210417576】    [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308506965637207】, precision :【0.3971463724318255】, recall : 【0.3435239445368851】, fscore : 【0.320241210417576】    [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308187484741211】, precision :【0.3972940344195548】, recall : 【0.3436795452951088】, fscore : 【0.32037963136858133】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308187484741211】, precision :【0.3972940344195548】, recall : 【0.3436795452951088】, fscore : 【0.32037963136858133】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308187484741211】, precision :【0.3972940344195548】, recall : 【0.3436795452951088】, fscore : 【0.32037963136858133】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308187484741211】, precision :【0.3972940344195548】, recall : 【0.3436795452951088】, fscore : 【0.32037963136858133】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308187484741211】, precision :【0.3972940344195548】, recall : 【0.3436795452951088】, fscore : 【0.32037963136858133】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308187484741211】, precision :【0.3972940344195548】, recall : 【0.3436795452951088】, fscore : 【0.32037963136858133】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308187484741211】, precision :【0.3972940344195548】, recall : 【0.3436795452951088】, fscore : 【0.32037963136858133】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308187484741211】, precision :【0.3972940344195548】, recall : 【0.3436795452951088】, fscore : 【0.32037963136858133】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308187484741211】, precision :【0.3972940344195548】, recall : 【0.3436795452951088】, fscore : 【0.32037963136858133】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.308187484741211】, precision :【0.3972940344195548】, recall : 【0.3436795452951088】, fscore : 【0.32037963136858133】  [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307933807373047】, precision :【0.39755650958812366】, recall : 【0.34367400668357895】, fscore : 【0.3203795035262858】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307933807373047】, precision :【0.39755650958812366】, recall : 【0.34367400668357895】, fscore : 【0.3203795035262858】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307933807373047】, precision :【0.39755650958812366】, recall : 【0.34367400668357895】, fscore : 【0.3203795035262858】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307933807373047】, precision :【0.39755650958812366】, recall : 【0.34367400668357895】, fscore : 【0.3203795035262858】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307933807373047】, precision :【0.39755650958812366】, recall : 【0.34367400668357895】, fscore : 【0.3203795035262858】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307933807373047】, precision :【0.39755650958812366】, recall : 【0.34367400668357895】, fscore : 【0.3203795035262858】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307933807373047】, precision :【0.39755650958812366】, recall : 【0.34367400668357895】, fscore : 【0.3203795035262858】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307933807373047】, precision :【0.39755650958812366】, recall : 【0.34367400668357895】, fscore : 【0.3203795035262858】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307933807373047】, precision :【0.39755650958812366】, recall : 【0.34367400668357895】, fscore : 【0.3203795035262858】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307933807373047】, precision :【0.39755650958812366】, recall : 【0.34367400668357895】, fscore : 【0.3203795035262858】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307685852050781】, precision :【0.3974470288390279】, recall : 【0.34374684731815364】, fscore : 【0.32046347379637297】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307685852050781】, precision :【0.3974470288390279】, recall : 【0.34374684731815364】, fscore : 【0.32046347379637297】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307685852050781】, precision :【0.3974470288390279】, recall : 【0.34374684731815364】, fscore : 【0.32046347379637297】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307685852050781】, precision :【0.3974470288390279】, recall : 【0.34374684731815364】, fscore : 【0.32046347379637297】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307685852050781】, precision :【0.3974470288390279】, recall : 【0.34374684731815364】, fscore : 【0.32046347379637297】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307685852050781】, precision :【0.3974470288390279】, recall : 【0.34374684731815364】, fscore : 【0.32046347379637297】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307685852050781】, precision :【0.3974470288390279】, recall : 【0.34374684731815364】, fscore : 【0.32046347379637297】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307685852050781】, precision :【0.3974470288390279】, recall : 【0.34374684731815364】, fscore : 【0.32046347379637297】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307685852050781】, precision :【0.3974470288390279】, recall : 【0.34374684731815364】, fscore : 【0.32046347379637297】 [22mcore are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307483673095703】, precision :【0.39762217471937333】, recall : 【0.34372762838769383】, fscore : 【0.32040303452822977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307483673095703】, precision :【0.39762217471937333】, recall : 【0.34372762838769383】, fscore : 【0.32040303452822977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+Validation loss decreased (1.675986 --> 1.675967).  Saving model ...
+[1m Loss : 【13.307483673095703】, precision :【0.39762217471937333】, recall : 【0.34372762838769383】, fscore : 【0.32040303452822977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307483673095703】, precision :【0.39762217471937333】, recall : 【0.34372762838769383】, fscore : 【0.32040303452822977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307483673095703】, precision :【0.39762217471937333】, recall : 【0.34372762838769383】, fscore : 【0.32040303452822977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307483673095703】, precision :【0.39762217471937333】, recall : 【0.34372762838769383】, fscore : 【0.32040303452822977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307483673095703】, precision :【0.39762217471937333】, recall : 【0.34372762838769383】, fscore : 【0.32040303452822977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307483673095703】, precision :【0.39762217471937333】, recall : 【0.34372762838769383】, fscore : 【0.32040303452822977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307483673095703】, precision :【0.39762217471937333】, recall : 【0.34372762838769383】, fscore : 【0.32040303452822977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307483673095703】, precision :【0.39762217471937333】, recall : 【0.34372762838769383】, fscore : 【0.32040303452822977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307483673095703】, precision :【0.39762217471937333】, recall : 【0.34372762838769383】, fscore : 【0.32040303452822977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307488441467285】, precision :【0.3976873566612645】, recall : 【0.3437661635780714】, fscore : 【0.32045542979606】 977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307488441467285】, precision :【0.3976873566612645】, recall : 【0.3437661635780714】, fscore : 【0.32045542979606】 977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307488441467285】, precision :【0.3976873566612645】, recall : 【0.3437661635780714】, fscore : 【0.32045542979606】 977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307488441467285】, precision :【0.3976873566612645】, recall : 【0.3437661635780714】, fscore : 【0.32045542979606】 977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307488441467285】, precision :【0.3976873566612645】, recall : 【0.3437661635780714】, fscore : 【0.32045542979606】 977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307488441467285】, precision :【0.3976873566612645】, recall : 【0.3437661635780714】, fscore : 【0.32045542979606】 977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307488441467285】, precision :【0.3976873566612645】, recall : 【0.3437661635780714】, fscore : 【0.32045542979606】 977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307488441467285】, precision :【0.3976873566612645】, recall : 【0.3437661635780714】, fscore : 【0.32045542979606】 977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307488441467285】, precision :【0.3976873566612645】, recall : 【0.3437661635780714】, fscore : 【0.32045542979606】 977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307488441467285】, precision :【0.3976873566612645】, recall : 【0.3437661635780714】, fscore : 【0.32045542979606】 977】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30745792388916】, precision :【0.397663009547476】, recall : 【0.3437661635780714】, fscore : 【0.32045903450957003】 77】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30745792388916】, precision :【0.397663009547476】, recall : 【0.3437661635780714】, fscore : 【0.32045903450957003】 77】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30745792388916】, precision :【0.397663009547476】, recall : 【0.3437661635780714】, fscore : 【0.32045903450957003】 77】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30745792388916】, precision :【0.397663009547476】, recall : 【0.3437661635780714】, fscore : 【0.32045903450957003】 77】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30745792388916】, precision :【0.397663009547476】, recall : 【0.3437661635780714】, fscore : 【0.32045903450957003】 77】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30745792388916】, precision :【0.397663009547476】, recall : 【0.3437661635780714】, fscore : 【0.32045903450957003】 77】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30745792388916】, precision :【0.397663009547476】, recall : 【0.3437661635780714】, fscore : 【0.32045903450957003】 77】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30745792388916】, precision :【0.397663009547476】, recall : 【0.3437661635780714】, fscore : 【0.32045903450957003】 77】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30745792388916】, precision :【0.397663009547476】, recall : 【0.3437661635780714】, fscore : 【0.32045903450957003】 77】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30745792388916】, precision :【0.397663009547476】, recall : 【0.3437661635780714】, fscore : 【0.32045903450957003】 77】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307425498962402】, precision :【0.3977883034683623】, recall : 【0.3437902566819101】, fscore : 【0.32049882353654957】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307425498962402】, precision :【0.3977883034683623】, recall : 【0.3437902566819101】, fscore : 【0.32049882353654957】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307425498962402】, precision :【0.3977883034683623】, recall : 【0.3437902566819101】, fscore : 【0.32049882353654957】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307425498962402】, precision :【0.3977883034683623】, recall : 【0.3437902566819101】, fscore : 【0.32049882353654957】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307425498962402】, precision :【0.3977883034683623】, recall : 【0.3437902566819101】, fscore : 【0.32049882353654957】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307425498962402】, precision :【0.3977883034683623】, recall : 【0.3437902566819101】, fscore : 【0.32049882353654957】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307425498962402】, precision :【0.3977883034683623】, recall : 【0.3437902566819101】, fscore : 【0.32049882353654957】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307425498962402】, precision :【0.3977883034683623】, recall : 【0.3437902566819101】, fscore : 【0.32049882353654957】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307406425476074】, precision :【0.3977474161617335】, recall : 【0.3437655103319967】, fscore : 【0.32046569472945785】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307406425476074】, precision :【0.3977474161617335】, recall : 【0.3437655103319967】, fscore : 【0.32046569472945785】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+Validation loss decreased (1.675902 --> 1.675901).  Saving model ...
+[1m Loss : 【13.307406425476074】, precision :【0.3977474161617335】, recall : 【0.3437655103319967】, fscore : 【0.32046569472945785】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307406425476074】, precision :【0.3977474161617335】, recall : 【0.3437655103319967】, fscore : 【0.32046569472945785】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307406425476074】, precision :【0.3977474161617335】, recall : 【0.3437655103319967】, fscore : 【0.32046569472945785】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307406425476074】, precision :【0.3977474161617335】, recall : 【0.3437655103319967】, fscore : 【0.32046569472945785】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307406425476074】, precision :【0.3977474161617335】, recall : 【0.3437655103319967】, fscore : 【0.32046569472945785】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307406425476074】, precision :【0.3977474161617335】, recall : 【0.3437655103319967】, fscore : 【0.32046569472945785】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307406425476074】, precision :【0.3977474161617335】, recall : 【0.3437655103319967】, fscore : 【0.32046569472945785】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307406425476074】, precision :【0.3977474161617335】, recall : 【0.3437655103319967】, fscore : 【0.32046569472945785】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307406425476074】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307406425476074】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307406425476074】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307406425476074】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307406425476074】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307406425476074】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307406425476074】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307406425476074】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307411193847656】, precision :【0.3976957937493292】, recall : 【0.3437917982758657】, fscore : 【0.3204724243332382】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307411193847656】, precision :【0.3976957937493292】, recall : 【0.3437917982758657】, fscore : 【0.3204724243332382】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+Validation loss decreased (1.675900 --> 1.675893).  Saving model ...
+[1m Loss : 【13.307411193847656】, precision :【0.3976957937493292】, recall : 【0.3437917982758657】, fscore : 【0.3204724243332382】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307411193847656】, precision :【0.3976957937493292】, recall : 【0.3437917982758657】, fscore : 【0.3204724243332382】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307411193847656】, precision :【0.3976957937493292】, recall : 【0.3437917982758657】, fscore : 【0.3204724243332382】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307411193847656】, precision :【0.3976957937493292】, recall : 【0.3437917982758657】, fscore : 【0.3204724243332382】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307411193847656】, precision :【0.3976957937493292】, recall : 【0.3437917982758657】, fscore : 【0.3204724243332382】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307411193847656】, precision :【0.3976957937493292】, recall : 【0.3437917982758657】, fscore : 【0.3204724243332382】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307411193847656】, precision :【0.3976957937493292】, recall : 【0.3437917982758657】, fscore : 【0.3204724243332382】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307411193847656】, precision :【0.3976957937493292】, recall : 【0.3437917982758657】, fscore : 【0.3204724243332382】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】  】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307391166687012】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307391166687012】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307391166687012】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307391166687012】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307391166687012】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307391166687012】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307391166687012】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307391166687012】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307391166687012】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307391166687012】, precision :【0.3976840668091363】, recall : 【0.3437757726348401】, fscore : 【0.32045792474542595】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976865769478622】, recall : 【0.3437757726348401】, fscore : 【0.3204571684014768】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976865769478622】, recall : 【0.3437757726348401】, fscore : 【0.3204571684014768】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976865769478622】, recall : 【0.3437757726348401】, fscore : 【0.3204571684014768】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976865769478622】, recall : 【0.3437757726348401】, fscore : 【0.3204571684014768】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976865769478622】, recall : 【0.3437757726348401】, fscore : 【0.3204571684014768】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976865769478622】, recall : 【0.3437757726348401】, fscore : 【0.3204571684014768】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976865769478622】, recall : 【0.3437757726348401】, fscore : 【0.3204571684014768】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.30739688873291】, precision :【0.3976865769478622】, recall : 【0.3437757726348401】, fscore : 【0.3204571684014768】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307408332824707】, precision :【0.397688763094273】, recall : 【0.3437757726348401】, fscore : 【0.3204573637214258】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307408332824707】, precision :【0.397688763094273】, recall : 【0.3437757726348401】, fscore : 【0.3204573637214258】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+EarlyStopping counter: 4 out of 5
+[1m Loss : 【13.307408332824707】, precision :【0.397688763094273】, recall : 【0.3437757726348401】, fscore : 【0.3204573637214258】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307408332824707】, precision :【0.397688763094273】, recall : 【0.3437757726348401】, fscore : 【0.3204573637214258】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307408332824707】, precision :【0.397688763094273】, recall : 【0.3437757726348401】, fscore : 【0.3204573637214258】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307408332824707】, precision :【0.397688763094273】, recall : 【0.3437757726348401】, fscore : 【0.3204573637214258】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307408332824707】, precision :【0.397688763094273】, recall : 【0.3437757726348401】, fscore : 【0.3204573637214258】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307408332824707】, precision :【0.397688763094273】, recall : 【0.3437757726348401】, fscore : 【0.3204573637214258】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+[1m Loss : 【13.307408332824707】, precision :【0.397688763094273】, recall : 【0.3437757726348401】, fscore : 【0.3204573637214258】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+    for line in f.readlines():[1m    [22m | [36msource.io.writer[39m:[36mjson_writer[39m:[36m125[39m - [1mSave Json Successfully.core : 【0.3204573637214258】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+    for line in f.readlines():[1m    [22m | [36msource.io.writer[39m:[36mjson_writer[39m:[36m125[39m - [1mSave Json Successfully.core : 【0.3204573637214258】 】 】 [22more are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.

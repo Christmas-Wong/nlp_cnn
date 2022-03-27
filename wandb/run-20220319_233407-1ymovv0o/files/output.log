@@ -1,0 +1,23 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\chris\AppData\Local\Temp\jieba.cache
+Loading model cost 0.315 seconds.
+Prefix dict has been built successfully.
+[32m2022-03-19 23:34:29.003[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mjson_writer[39m:[36m125[39m - [1mSave Json Successfully.
+[32m2022-03-19 23:34:29.003[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mjson_writer[39m:[36m125[39m - [1mSave Json Successfully.
+[32m2022-03-19 23:34:29.118[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mwrite_lines[39m:[36m34[39m - [1mWrite into [E:\project_output\nlp_cnn_dpcnn_base_dpcnn_random\cache\vocab.txt] [31844]lines Successfully.
+[32m2022-03-19 23:34:29.118[39m | [1mINFO    [22m | [36msource.io.reader[39m:[36mlist_from_txt[39m:[36m106[39m -
+[1m Read [31844] lines from file
+  0%|          | 0/5336 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "E:\project\nlp_cnn-main\source\core\inference.py", line 62, in run
+    outputs = self.model(sentence)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "E:\project\nlp_cnn-main\source\model\dpcnn.py", line 71, in forward
+    x = self.conv_region(x)  # [batch_size, 250, seq_len-3+1, 1]
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\conv.py", line 446, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\conv.py", line 442, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,

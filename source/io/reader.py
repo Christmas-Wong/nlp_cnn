@@ -46,7 +46,7 @@ def label_encoder_reader(file: str) -> LabelEncoder:
     :param file: File
     :return: LabelEncoder
     """
-    with codecs.open(file, "rb") as f:
+    with codecs.open(file, "rb", encoding="utf_8") as f:
         result = pickle.load(f)
     f.close()
     return result
@@ -71,7 +71,7 @@ def jsonl_reader(file: str) -> List:
     :return:
     """
     result = list()
-    with codecs.open(file, "r") as f:
+    with codecs.open(file, "r", encoding="utf_8") as f:
         for line in f.readlines():
             json_ele = json.loads(line)
             result.append(json_ele)
@@ -86,7 +86,7 @@ def json_reader(file: str):
     :param file: JSON File
     :return:
     """
-    with codecs.open(file, "r") as f:
+    with codecs.open(file, "r", encoding="utf_8") as f:
         result = json.load(f)
     f.close()
     return result
@@ -99,7 +99,7 @@ def list_from_txt(file: str) -> List:
     :return:
     """
     result = []
-    with codecs.open(file, "r") as f:
+    with codecs.open(file, "r", encoding="utf_8") as f:
         for line in f.readlines():
             content = line.strip()
             result.append(content)

@@ -1,0 +1,317 @@
+2022-03-19 22:27:47,471 INFO    MainThread:51208 [internal.py:wandb_internal():92] W&B internal server running at pid: 51208, started at: 2022-03-19 22:27:47.471274
+2022-03-19 22:27:47,472 INFO    WriterThread:51208 [datastore.py:open_for_write():77] open: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\run-3c77w099.wandb
+2022-03-19 22:27:47,474 DEBUG   SenderThread:51208 [sender.py:send():235] send: header
+2022-03-19 22:27:47,474 DEBUG   SenderThread:51208 [sender.py:send():235] send: run
+2022-03-19 22:27:47,804 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: check_version
+2022-03-19 22:27:47,804 INFO    SenderThread:51208 [dir_watcher.py:__init__():169] watching files in: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files
+2022-03-19 22:27:47,804 INFO    SenderThread:51208 [sender.py:_start_run_threads():812] run started: 3c77w099 with start time 1647700067
+2022-03-19 22:27:47,804 DEBUG   SenderThread:51208 [sender.py:send():235] send: summary
+2022-03-19 22:27:47,804 INFO    SenderThread:51208 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-19 22:27:47,804 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: check_version
+2022-03-19 22:27:48,438 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: run_start
+2022-03-19 22:27:48,449 DEBUG   HandlerThread:51208 [meta.py:__init__():37] meta init
+2022-03-19 22:27:48,449 DEBUG   HandlerThread:51208 [meta.py:__init__():51] meta init done
+2022-03-19 22:27:48,449 DEBUG   HandlerThread:51208 [meta.py:probe():211] probe
+2022-03-19 22:27:48,469 DEBUG   HandlerThread:51208 [meta.py:_save_pip():55] save pip
+2022-03-19 22:27:48,470 DEBUG   HandlerThread:51208 [meta.py:_save_pip():69] save pip done
+2022-03-19 22:27:48,470 DEBUG   HandlerThread:51208 [meta.py:_save_conda():76] save conda
+2022-03-19 22:27:48,809 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\conda-environment.yaml
+2022-03-19 22:27:48,809 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\requirements.txt
+2022-03-19 22:27:48,809 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json
+2022-03-19 22:27:49,820 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\conda-environment.yaml
+2022-03-19 22:27:49,910 DEBUG   HandlerThread:51208 [meta.py:_save_conda():86] save conda done
+2022-03-19 22:27:49,910 DEBUG   HandlerThread:51208 [meta.py:probe():249] probe done
+2022-03-19 22:27:49,910 DEBUG   SenderThread:51208 [sender.py:send():235] send: files
+2022-03-19 22:27:49,910 INFO    SenderThread:51208 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-03-19 22:27:49,927 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:27:49,927 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:27:50,185 DEBUG   SenderThread:51208 [sender.py:send():235] send: telemetry
+2022-03-19 22:27:50,830 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-metadata.json
+2022-03-19 22:27:50,830 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_created():217] file/dir created: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:27:51,339 INFO    Thread-11 :51208 [upload_job.py:push():137] Uploaded file C:\Users\chris\AppData\Local\Temp\tmpwyf_4iq_wandb\10gzwajt-wandb-metadata.json
+2022-03-19 22:27:52,855 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:27:54,877 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:27:56,898 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:27:58,924 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:05,203 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:28:05,203 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:28:18,096 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\config.yaml
+2022-03-19 22:28:19,096 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:20,166 DEBUG   SenderThread:51208 [sender.py:send():235] send: stats
+2022-03-19 22:28:20,486 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:28:20,486 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:28:23,131 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:25,151 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:27,169 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:29,197 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:31,206 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:33,211 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:35,234 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:35,773 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:28:35,773 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:28:37,243 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:39,252 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:40,360 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-19 22:28:40,360 DEBUG   SenderThread:51208 [sender.py:send():235] send: history
+2022-03-19 22:28:40,360 DEBUG   SenderThread:51208 [sender.py:send():235] send: summary
+2022-03-19 22:28:40,360 INFO    SenderThread:51208 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-19 22:28:41,278 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json
+2022-03-19 22:28:41,278 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:42,293 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:43,307 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:44,323 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:46,341 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:48,359 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:50,374 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:51,119 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:28:51,119 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:28:52,392 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:53,700 DEBUG   SenderThread:51208 [sender.py:send():235] send: stats
+2022-03-19 22:28:54,412 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:56,423 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:28:58,088 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-19 22:28:58,088 DEBUG   SenderThread:51208 [sender.py:send():235] send: history
+2022-03-19 22:28:58,088 DEBUG   SenderThread:51208 [sender.py:send():235] send: summary
+2022-03-19 22:28:58,088 INFO    SenderThread:51208 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-19 22:28:58,447 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json
+2022-03-19 22:28:58,447 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:00,471 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:02,484 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:04,512 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:06,434 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:29:06,435 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:29:06,518 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:08,533 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:10,564 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:12,584 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:14,609 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:15,511 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-19 22:29:15,511 DEBUG   SenderThread:51208 [sender.py:send():235] send: history
+2022-03-19 22:29:15,511 DEBUG   SenderThread:51208 [sender.py:send():235] send: summary
+2022-03-19 22:29:15,511 INFO    SenderThread:51208 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-19 22:29:15,626 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json
+2022-03-19 22:29:16,626 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:18,643 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:20,650 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:21,728 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:29:21,728 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:29:22,665 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:24,681 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:26,688 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:27,331 DEBUG   SenderThread:51208 [sender.py:send():235] send: stats
+2022-03-19 22:29:28,695 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:30,709 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:32,723 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:32,723 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-19 22:29:32,723 DEBUG   SenderThread:51208 [sender.py:send():235] send: history
+2022-03-19 22:29:32,723 DEBUG   SenderThread:51208 [sender.py:send():235] send: summary
+2022-03-19 22:29:32,723 INFO    SenderThread:51208 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-19 22:29:33,728 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json
+2022-03-19 22:29:34,746 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:36,765 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:37,055 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:29:37,055 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:29:38,781 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:40,812 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:42,832 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:44,837 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:46,866 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:48,881 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:50,216 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-19 22:29:50,216 DEBUG   SenderThread:51208 [sender.py:send():235] send: history
+2022-03-19 22:29:50,216 DEBUG   SenderThread:51208 [sender.py:send():235] send: summary
+2022-03-19 22:29:50,216 INFO    SenderThread:51208 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-19 22:29:50,890 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json
+2022-03-19 22:29:50,890 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:52,406 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:29:52,406 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:29:52,902 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:54,920 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:56,941 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:29:58,969 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:00,989 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:01,006 DEBUG   SenderThread:51208 [sender.py:send():235] send: stats
+2022-03-19 22:30:03,001 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:05,011 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:07,028 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:07,680 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-19 22:30:07,680 DEBUG   SenderThread:51208 [sender.py:send():235] send: history
+2022-03-19 22:30:07,680 DEBUG   SenderThread:51208 [sender.py:send():235] send: summary
+2022-03-19 22:30:07,680 INFO    SenderThread:51208 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-19 22:30:07,749 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:30:07,749 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:30:08,043 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json
+2022-03-19 22:30:09,069 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:11,086 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:13,112 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:15,129 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:17,155 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:19,168 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:21,199 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:23,063 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:30:23,063 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:30:23,207 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:25,080 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-19 22:30:25,080 DEBUG   SenderThread:51208 [sender.py:send():235] send: history
+2022-03-19 22:30:25,080 DEBUG   SenderThread:51208 [sender.py:send():235] send: summary
+2022-03-19 22:30:25,080 INFO    SenderThread:51208 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-19 22:30:25,239 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json
+2022-03-19 22:30:25,239 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:27,261 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:29,279 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:31,299 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:33,307 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:34,625 DEBUG   SenderThread:51208 [sender.py:send():235] send: stats
+2022-03-19 22:30:35,314 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:37,328 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:38,406 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:30:38,407 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:30:39,346 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:41,357 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:41,907 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-19 22:30:41,907 DEBUG   SenderThread:51208 [sender.py:send():235] send: history
+2022-03-19 22:30:41,907 DEBUG   SenderThread:51208 [sender.py:send():235] send: summary
+2022-03-19 22:30:41,907 INFO    SenderThread:51208 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-19 22:30:42,367 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json
+2022-03-19 22:30:43,384 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:45,408 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:47,417 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:49,433 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:51,448 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:53,475 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:53,754 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:30:53,754 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:30:55,499 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:57,516 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:30:58,894 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-19 22:30:58,894 DEBUG   SenderThread:51208 [sender.py:send():235] send: history
+2022-03-19 22:30:58,894 DEBUG   SenderThread:51208 [sender.py:send():235] send: summary
+2022-03-19 22:30:58,894 INFO    SenderThread:51208 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-19 22:30:59,543 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json
+2022-03-19 22:30:59,544 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:01,566 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:03,572 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:05,582 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:07,601 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:08,182 DEBUG   SenderThread:51208 [sender.py:send():235] send: stats
+2022-03-19 22:31:09,077 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:31:09,077 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:31:09,630 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:11,652 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:13,673 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:15,681 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:16,292 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-19 22:31:16,297 DEBUG   SenderThread:51208 [sender.py:send():235] send: history
+2022-03-19 22:31:16,297 DEBUG   SenderThread:51208 [sender.py:send():235] send: summary
+2022-03-19 22:31:16,297 INFO    SenderThread:51208 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-19 22:31:16,693 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json
+2022-03-19 22:31:17,699 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:19,716 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:21,740 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:23,760 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:24,434 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:31:24,434 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:31:25,778 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:27,803 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:29,821 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:31,843 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:33,698 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-19 22:31:33,698 DEBUG   SenderThread:51208 [sender.py:send():235] send: history
+2022-03-19 22:31:33,698 DEBUG   SenderThread:51208 [sender.py:send():235] send: summary
+2022-03-19 22:31:33,698 INFO    SenderThread:51208 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-19 22:31:33,859 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json
+2022-03-19 22:31:33,860 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:35,882 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:37,902 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:39,801 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:31:39,801 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:31:39,932 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:41,945 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:42,077 DEBUG   SenderThread:51208 [sender.py:send():235] send: stats
+2022-03-19 22:31:43,955 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:45,989 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:48,002 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:50,020 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:51,403 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-19 22:31:51,404 DEBUG   SenderThread:51208 [sender.py:send():235] send: history
+2022-03-19 22:31:51,404 DEBUG   SenderThread:51208 [sender.py:send():235] send: summary
+2022-03-19 22:31:51,405 INFO    SenderThread:51208 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-19 22:31:52,032 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json
+2022-03-19 22:31:52,032 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:54,045 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:55,120 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:31:55,121 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:31:56,055 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:31:58,062 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:00,077 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:02,091 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:04,107 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:06,117 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:08,127 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:08,726 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-19 22:32:08,726 DEBUG   SenderThread:51208 [sender.py:send():235] send: history
+2022-03-19 22:32:08,726 DEBUG   SenderThread:51208 [sender.py:send():235] send: summary
+2022-03-19 22:32:08,726 INFO    SenderThread:51208 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-19 22:32:09,141 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json
+2022-03-19 22:32:10,142 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:10,416 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:32:10,416 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:32:12,148 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:14,153 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:15,686 DEBUG   SenderThread:51208 [sender.py:send():235] send: stats
+2022-03-19 22:32:16,186 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:18,193 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:20,208 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:22,240 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:24,250 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:25,733 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:32:25,733 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:32:26,263 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:26,527 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-19 22:32:26,527 DEBUG   SenderThread:51208 [sender.py:send():235] send: history
+2022-03-19 22:32:26,527 DEBUG   SenderThread:51208 [sender.py:send():235] send: summary
+2022-03-19 22:32:26,527 INFO    SenderThread:51208 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-19 22:32:27,271 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json
+2022-03-19 22:32:28,276 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:30,306 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:32,326 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:34,346 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:36,368 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:38,378 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:40,407 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:41,092 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-19 22:32:41,092 DEBUG   SenderThread:51208 [sender.py:send_request():249] send_request: stop_status
+2022-03-19 22:32:42,417 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:42,816 DEBUG   HandlerThread:51208 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-19 22:32:42,816 DEBUG   SenderThread:51208 [sender.py:send():235] send: history
+2022-03-19 22:32:42,816 DEBUG   SenderThread:51208 [sender.py:send():235] send: summary
+2022-03-19 22:32:42,816 INFO    SenderThread:51208 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-19 22:32:43,426 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json
+2022-03-19 22:32:44,436 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:45,448 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:46,463 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:48,477 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:49,243 DEBUG   SenderThread:51208 [sender.py:send():235] send: stats
+2022-03-19 22:32:50,496 INFO    Thread-7  :51208 [dir_watcher.py:_on_file_modified():230] file/dir modified: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:50,842 WARNING MainThread:51208 [internal.py:wandb_internal():155] Internal process interrupt: 1
+2022-03-19 22:32:51,373 WARNING MainThread:51208 [internal.py:wandb_internal():155] Internal process interrupt: 2
+2022-03-19 22:32:51,373 ERROR   MainThread:51208 [internal.py:wandb_internal():158] Internal process interrupted.
+2022-03-19 22:32:51,596 INFO    SenderThread:51208 [sender.py:finish():1078] shutting down sender
+2022-03-19 22:32:51,598 INFO    HandlerThread:51208 [handler.py:finish():778] shutting down handler
+2022-03-19 22:32:51,598 INFO    WriterThread:51208 [datastore.py:close():281] close: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\run-3c77w099.wandb
+2022-03-19 22:32:51,598 INFO    SenderThread:51208 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-19 22:32:52,519 INFO    SenderThread:51208 [dir_watcher.py:finish():313] scan: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files
+2022-03-19 22:32:52,520 INFO    SenderThread:51208 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\conda-environment.yaml conda-environment.yaml
+2022-03-19 22:32:52,521 INFO    SenderThread:51208 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\config.yaml config.yaml
+2022-03-19 22:32:52,521 INFO    SenderThread:51208 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log output.log
+2022-03-19 22:32:52,521 INFO    SenderThread:51208 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\requirements.txt requirements.txt
+2022-03-19 22:32:52,521 INFO    SenderThread:51208 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-metadata.json wandb-metadata.json
+2022-03-19 22:32:52,521 INFO    SenderThread:51208 [dir_watcher.py:finish():327] scan save: E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json wandb-summary.json
+2022-03-19 22:32:52,521 INFO    SenderThread:51208 [file_pusher.py:finish():145] shutting down file pusher
+2022-03-19 22:32:52,521 INFO    SenderThread:51208 [file_pusher.py:join():150] waiting for file pusher
+2022-03-19 22:32:53,399 INFO    Thread-12 :51208 [upload_job.py:push():137] Uploaded file E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\conda-environment.yaml
+2022-03-19 22:32:53,415 INFO    Thread-13 :51208 [upload_job.py:push():137] Uploaded file E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\config.yaml
+2022-03-19 22:32:53,442 INFO    Thread-14 :51208 [upload_job.py:push():137] Uploaded file E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\output.log
+2022-03-19 22:32:53,838 INFO    Thread-16 :51208 [upload_job.py:push():137] Uploaded file E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\wandb-summary.json
+2022-03-19 22:32:53,855 INFO    Thread-15 :51208 [upload_job.py:push():137] Uploaded file E:\project\nlp_cnn-main\wandb\run-20220319_222747-3c77w099\files\requirements.txt
+2022-03-19 22:32:55,317 INFO    MainThread:51208 [internal.py:handle_exit():82] Internal process exited

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "E:\project\nlp_cnn-main\source\io\reader.py", line 94, in json_reader
+    result = json.load(f)
+  File "D:\app\conda\envs\pytorch\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "D:\app\conda\envs\pytorch\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "D:\app\conda\envs\pytorch\lib\json\decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 93)
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "E:\project\nlp_cnn-main\source\io\reader.py", line 96, in json_reader
+    print(result)

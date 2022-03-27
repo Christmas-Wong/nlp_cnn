@@ -60,7 +60,10 @@ class Inference(object):
             for ele in tqdm(self.data):
                 sentence = torch.tensor([convert_sentence(ele["text"], self.vocab, max_length=self.padding)]).to(DEVICE)
                 outputs = self.model(sentence)
-                predict = torch.max(outputs.data, 1)[1].cpu().numpy()[0]
+                if list(outputs.size())[0] == 1:
+                    predict = torch.max(outputs.data, 1)[1].cpu().item()
+                else:
+                    predict = torch.max(outputs.data, 0)[1].cpu().item()
                 ele["predict"] = self.id_2_label[predict]
         if self.evaluate_status:
             return self.evaluate()

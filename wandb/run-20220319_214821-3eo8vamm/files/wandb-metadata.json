@@ -1,0 +1,18 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-03-19T13:48:23.227155",
+    "startedAt": "2022-03-19T13:48:21.066611",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "gpu_count": 1,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "E:/project/nlp_cnn-main/python_runner.py",
+    "codePath": "python_runner.py",
+    "host": "christmas",
+    "username": "chris",
+    "executable": "D:\\app\\conda\\envs\\pytorch\\python.exe"
+}

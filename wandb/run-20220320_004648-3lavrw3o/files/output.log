@@ -1,0 +1,28 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\chris\AppData\Local\Temp\jieba.cache
+Loading model cost 0.319 seconds.
+Prefix dict has been built successfully.
+
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 53360/53360 [00:03<00:00, 17177.66it/s]
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 31844/31844 [00:00<00:00, 560533.73it/s]
+  0%|                                                                                                                        | 0/100 [00:00<?, ?it/s]
+  0%|                                                                                                                        | 0/100 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "python_runner.py", line 21, in <module>
+    run(config)
+  File "E:\project\nlp_cnn-main\source\pipeline\classification.py", line 116, in run
+    trainer.train()
+  File "E:\project\nlp_cnn-main\source\core\trainer.py", line 56, in train
+    logits = self.model(batch_x)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "E:\project\nlp_cnn-main\source\model\dpcnn.py", line 77, in forward
+    x = self.bn(x)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\batchnorm.py", line 135, in forward
+    self._check_input_dim(input)
+  File "D:\app\conda\envs\pytorch\lib\site-packages\torch\nn\modules\batchnorm.py", line 299, in _check_input_dim
+    raise ValueError(
+ValueError: expected 2D or 3D input (got 4D input)

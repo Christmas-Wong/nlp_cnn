@@ -1,0 +1,38 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\chris\AppData\Local\Temp\jieba.cache
+Loading model cost 0.329 seconds.
+Prefix dict has been built successfully.
+
+
+
+100%|██████████| 9318/9318 [00:07<00:00, 1178.86it/s]
+[32m2022-03-27 12:42:46.326[39m | [1mINFO    [22m | [36msource.embedding.word2vec[39m:[36mword2vec_train[39m:[36m28[39m - [1mWord2vec Training Start 
+[32m2022-03-27 12:43:03.414[39m | [1mINFO    [22m | [36msource.embedding.word2vec[39m:[36mword2vec_train[39m:[36m45[39m - [1mWord2vec Training End, Cost【17.086978912353516】Seconds 
+100%|██████████| 17463/17463 [00:00<00:00, 238533.76it/s]
+[32m2022-03-27 12:43:11.677[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mjson_writer[39m:[36m125[39m - [1mSave Json Successfully.
+[32m2022-03-27 12:43:11.677[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mjson_writer[39m:[36m125[39m - [1mSave Json Successfully.
+[32m2022-03-27 12:43:11.739[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mwrite_lines[39m:[36m34[39m - [1mWrite into [E:\project_output\nlp_cnn_dpcnn_base_dpcnn_word2vec_640_dropout_bn\cache\vocab.txt] [17463]lines Successfully.
+[32m2022-03-27 12:43:11.742[39m | [1mINFO    [22m | [36msource.io.reader[39m:[36mlist_from_txt[39m:[36m106[39m -
+[1m Read [17463] lines from file
+
+
+100%|██████████| 1553/1553 [00:07<00:00, 218.44it/s]
+[32m2022-03-27 12:43:18.920[39m | [1mINFO    [22m | [36msource.core.inference[39m:[36mevaluate[39m:[36m74[39m -
+[1m[[394  94]
+[1m [ 76 989]]
+[32m2022-03-27 12:43:18.929[39m | [1mINFO    [22m | [36msource.core.inference[39m:[36mevaluate[39m:[36m89[39m -
+[1m+--------------+--------------------+--------------------+--------------------+---------+
+[1m|    Class     |     precision      |       recall       |      f1-score      | support |
+[1m+--------------+--------------------+--------------------+--------------------+---------+
+[1m|     不好     | 0.8382978723404255 | 0.8073770491803278 | 0.8225469728601252 |   488   |
+[1m|      好      | 0.9132040627885504 | 0.9286384976525821 | 0.9208566108007449 |   1065  |
+[1m|   accuracy   |         0          |         0          | 0.8905344494526722 |   1553  |
+[1m|  macro avg   | 0.8757509675644879 | 0.868007773416455  | 0.8717017918304351 |   1553  |
+[1m| weighted avg | 0.889666251495128  | 0.8905344494526722 | 0.8899647219951927 |   1553  |
+[1m+--------------+--------------------+--------------------+--------------------+---------+
+[32m2022-03-27 12:43:22.701[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mbase_writer[39m:[36m91[39m - [1mBase Writer Work Successfully.
+[32m2022-03-27 12:43:22.701[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mreport_saver[39m:[36m51[39m - [1mSave report.csv Successfully.
+[32m2022-03-27 12:43:22.702[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mbase_writer[39m:[36m91[39m - [1mBase Writer Work Successfully.
+[32m2022-03-27 12:43:22.702[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mreport_saver[39m:[36m57[39m - [1mSave report.txt Successfully.
+[32m2022-03-27 12:43:22.707[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mconfusion_2_csv[39m:[36m107[39m - [1mSave Confusion Matrix Successfully.
+[32m2022-03-27 12:43:22.785[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mjson_writer[39m:[36m125[39m - [1mSave Json Successfully.

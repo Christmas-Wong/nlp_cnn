@@ -1,0 +1,16 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\chris\AppData\Local\Temp\jieba.cache
+Loading model cost 0.330 seconds.
+Prefix dict has been built successfully.
+
+
+
+100%|██████████| 9318/9318 [00:07<00:00, 1169.85it/s]
+[32m2022-03-27 12:39:36.477[39m | [1mINFO    [22m | [36msource.embedding.word2vec[39m:[36mword2vec_train[39m:[36m28[39m - [1mWord2vec Training Start 
+[32m2022-03-27 12:39:53.434[39m | [1mINFO    [22m | [36msource.embedding.word2vec[39m:[36mword2vec_train[39m:[36m45[39m - [1mWord2vec Training End, Cost【16.95637059211731】Seconds 
+100%|██████████| 17463/17463 [00:00<00:00, 231368.12it/s]
+[32m2022-03-27 12:40:01.679[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mjson_writer[39m:[36m125[39m - [1mSave Json Successfully.
+[32m2022-03-27 12:40:01.679[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mjson_writer[39m:[36m125[39m - [1mSave Json Successfully.
+[32m2022-03-27 12:40:01.741[39m | [1mINFO    [22m | [36msource.io.writer[39m:[36mwrite_lines[39m:[36m34[39m - [1mWrite into [E:\project_output\nlp_cnn_dpcnn_base_dpcnn_word2vec_640_dropout_bn\cache\vocab.txt] [17463]lines Successfully.
+[32m2022-03-27 12:40:01.745[39m | [1mINFO    [22m | [36msource.io.reader[39m:[36mlist_from_txt[39m:[36m106[39m -
+[1m Read [17463] lines from file
