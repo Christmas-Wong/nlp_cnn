@@ -8,8 +8,15 @@ pip install -r requirements.txt
 - Second, Edit the [nlp_cnn/run.sh] File
 - Third, Edit the [nlp_cnn/data/config.yml] File
 - Forth, run command below:
+
+if your system is linux
 ```text
 bash run.sh
+```
+
+if your system is windows
+```text
+python python_runner.py
 ```
 
 ## Introduction
